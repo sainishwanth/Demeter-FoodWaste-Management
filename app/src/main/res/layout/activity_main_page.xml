@@ -51,16 +51,18 @@
         android:layout_marginEnd="72dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
-        android:hint="Item"
+        android:hint="Add Item"
         android:imeOptions="actionDone"
         android:inputType="text" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="57dp"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="129dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="127dp"
         android:drawableLeft="@drawable/ic_baseline_food_bank_24"
         android:text="DEMETER"
         android:textAlignment="center"

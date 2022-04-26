@@ -43,10 +43,10 @@
         android:drawableLeft="@drawable/person_asset"
         android:drawablePadding="5dp"
         android:hint="@string/username"
-        android:textColor="@color/black"
-        android:inputType="text"
         android:imeOptions="actionDone"
-        />
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black" />
 
     <EditText
         android:id="@+id/password"
@@ -63,8 +63,9 @@
         android:drawableLeft="@drawable/pass_lock"
         android:drawablePadding="5dp"
         android:hint="Password"
+        android:imeOptions="actionDone"
         android:inputType="textPassword"
-        android:imeOptions="actionDone"/>
+        android:textColorHighlight="@color/black" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/LoginButton"
