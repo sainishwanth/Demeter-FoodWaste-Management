@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
+            "outputFile": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
             "map": [
                 {
                     "source": "/Users/sainishwanth/.gradle/caches/transforms-3/f4644d49845b47ba06b9572c54ce16a0/transformed/material-1.5.0/res/values-as/values-as.xml",

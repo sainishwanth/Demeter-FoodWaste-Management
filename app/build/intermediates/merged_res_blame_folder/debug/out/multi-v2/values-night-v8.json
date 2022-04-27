@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
+                {
+                    "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "816"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1446"
+                    }
+                },
                 {
                     "source": "/Users/sainishwanth/.gradle/caches/transforms-3/914116008979e77bc79da871871e9f31/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
@@ -35,25 +54,6 @@
                         "startOffsets": "1451,1526,1637,1726,1827,1934,2041,2140,2243,2331,2455,2557,2659,2775,2877,2991,3119,3235,3357,3493,3613,3747,3867,3979,4194,4311,4435,4565,4687,4825,4959,5075",
                         "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1521,1632,1721,1822,1929,2036,2135,2238,2326,2450,2552,2654,2770,2872,2986,3114,3230,3352,3488,3608,3742,3862,3974,4100,4306,4430,4560,4682,4820,4954,5070,5190"
-                    }
-                },
-                {
-                    "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "816"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "732",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1446"
                     }
                 }
             ]

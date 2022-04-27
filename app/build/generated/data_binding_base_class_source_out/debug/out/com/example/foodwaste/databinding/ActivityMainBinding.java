@@ -4,6 +4,7 @@ package com.example.foodwaste.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -13,6 +14,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.foodwaste.R;
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -25,20 +27,29 @@ public final class ActivityMainBinding implements ViewBinding {
   public final MaterialButton LoginButton;
 
   @NonNull
+  public final FloatingActionButton backtn;
+
+  @NonNull
   public final EditText password;
 
   @NonNull
   public final TextView signin;
 
   @NonNull
+  public final Button signupbtn;
+
+  @NonNull
   public final EditText username;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull MaterialButton LoginButton,
-      @NonNull EditText password, @NonNull TextView signin, @NonNull EditText username) {
+      @NonNull FloatingActionButton backtn, @NonNull EditText password, @NonNull TextView signin,
+      @NonNull Button signupbtn, @NonNull EditText username) {
     this.rootView = rootView;
     this.LoginButton = LoginButton;
+    this.backtn = backtn;
     this.password = password;
     this.signin = signin;
+    this.signupbtn = signupbtn;
     this.username = username;
   }
 
@@ -75,6 +86,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.backtn;
+      FloatingActionButton backtn = ViewBindings.findChildViewById(rootView, id);
+      if (backtn == null) {
+        break missingId;
+      }
+
       id = R.id.password;
       EditText password = ViewBindings.findChildViewById(rootView, id);
       if (password == null) {
@@ -87,14 +104,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.signupbtn;
+      Button signupbtn = ViewBindings.findChildViewById(rootView, id);
+      if (signupbtn == null) {
+        break missingId;
+      }
+
       id = R.id.username;
       EditText username = ViewBindings.findChildViewById(rootView, id);
       if (username == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, LoginButton, password, signin,
-          username);
+      return new ActivityMainBinding((RelativeLayout) rootView, LoginButton, backtn, password,
+          signin, signupbtn, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

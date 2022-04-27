@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FoodWaste" >
         <activity
+            android:name="com.example.foodwaste.SignUpActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.foodwaste.MainPageActivity"
             android:exported="false" />
         <activity

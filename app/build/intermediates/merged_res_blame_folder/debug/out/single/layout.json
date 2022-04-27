@@ -1,38 +1,18 @@
 [
     {
-        "merged": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_temp.xml",
-        "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/layout/activity_temp.xml"
+        "merged": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main_page.xml",
+        "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/layout/activity_main_page.xml"
     },
     {
-        "merged": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first.xml",
-        "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/layout/fragment_first.xml"
+        "merged": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_second2.xml",
-        "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/layout/fragment_second2.xml"
+        "merged": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_up.xml",
+        "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/layout/activity_sign_up.xml"
     },
     {
-        "merged": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_second.xml",
-        "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/layout/fragment_second.xml"
-    },
-    {
-        "merged": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first2.xml",
-        "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/layout/fragment_first2.xml"
-    },
-    {
-        "merged": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main_page2.xml",
-        "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/layout/activity_main_page2.xml"
-    },
-    {
-        "merged": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_main_page.xml",
-        "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/layout/content_main_page.xml"
-    },
-    {
-        "merged": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main_page.xml",
-        "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/layout/activity_main_page.xml"
-    },
-    {
-        "merged": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_temp.xml",
+        "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/layout/activity_temp.xml"
     }
 ]

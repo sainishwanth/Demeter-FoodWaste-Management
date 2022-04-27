@@ -27,6 +27,18 @@
         android:textSize="40dp"
         android:textStyle="bold" />
 
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="69dp"
+        android:text="Create a New Account?"
+        android:textStyle="bold"/>
+
     <EditText
         android:id="@+id/username"
         android:layout_width="299dp"
@@ -83,4 +95,34 @@
         android:text="Login"
         android:textColor="@color/black"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="136dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_add_24"
+        android:text="Sign up"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backtn"
+        android:layout_width="77dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="632dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
 </RelativeLayout>

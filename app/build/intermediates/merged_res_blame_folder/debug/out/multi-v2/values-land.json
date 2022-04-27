@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
+                {
+                    "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/values-land/dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "41",
+                        "endOffsets": "301"
+                    }
+                },
                 {
                     "source": "/Users/sainishwanth/.gradle/caches/transforms-3/914116008979e77bc79da871871e9f31/transformed/appcompat-1.4.1/res/values-land/values-land.xml",
                     "from": {
@@ -30,23 +47,6 @@
                         "endLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,29,35,40",
                         "endColumns": "74,73,72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
                         "endOffsets": "376,450,523,593,665,735,800,867,937,1009,1078,1147,1229,1319,1395,1463,1530,1608,1673,1740,1912,2307,2576"
-                    }
-                },
-                {
-                    "source": "/Users/sainishwanth/AndroidStudioProjects/FoodWaste/app/src/main/res/values-land/dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "5",
-                        "startColumns": "4",
-                        "startOffsets": "264",
-                        "endColumns": "41",
-                        "endOffsets": "301"
                     }
                 }
             ]

@@ -2464,6 +2464,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable addcircle
 drawable avd_hide_password
 drawable avd_show_password
 drawable backarr
@@ -2483,6 +2484,7 @@ drawable design_snackbar_background
 drawable foodbackground
 drawable gradient_2
 drawable ic_baseline_add_24
+drawable ic_baseline_arrow_back_24
 drawable ic_baseline_food_bank_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2639,6 +2641,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backtn
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2933,6 +2936,9 @@ id showCustom
 id showHome
 id showTitle
 id signin
+id signup
+id signupbtn
+id signupbutton
 id sin
 id skipCollapsed
 id skipped
@@ -2964,7 +2970,9 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id suppassword
 id supportScrollUp
+id supusername
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3127,6 +3135,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_main_page
+layout activity_sign_up
 layout activity_temp
 layout custom_dialog
 layout design_bottom_navigation_item
