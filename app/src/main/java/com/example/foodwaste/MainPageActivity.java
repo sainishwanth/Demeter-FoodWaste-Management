@@ -2,8 +2,10 @@ package com.example.foodwaste;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -34,7 +36,20 @@ public class MainPageActivity extends AppCompatActivity {
         itemList = new ArrayList<>();
         itemAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, itemList);
         listView.setAdapter(itemAdapter);
+        setUpListViewListener();
 
+    }
+    private void setUpListViewListener(){
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Context context = getApplicationContext();
+                Toast.makeText(context, "Item has been Marked", Toast.LENGTH_SHORT).show();
+                itemList.remove(i);
+                itemAdapter.notifyDataSetChanged();
+                return true;
+            }
+        });
     }
     public void addItem(View view){
         EditText itemText = findViewById(R.id.itemText);
