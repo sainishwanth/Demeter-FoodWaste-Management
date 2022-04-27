@@ -16,9 +16,6 @@
             android:name=".MainPageActivity"
             android:exported="false" />
         <activity
-            android:name=".TempActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>

@@ -3136,7 +3136,6 @@ layout abc_tooltip
 layout activity_main
 layout activity_main_page
 layout activity_sign_up
-layout activity_temp
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

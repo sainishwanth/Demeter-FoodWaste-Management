@@ -47,7 +47,6 @@ id username
 layout activity_main
 layout activity_main_page
 layout activity_sign_up
-layout activity_temp
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

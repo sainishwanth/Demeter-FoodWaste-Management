@@ -25,9 +25,6 @@
             android:name="com.example.foodwaste.MainPageActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.foodwaste.TempActivity"
-            android:exported="false" />
-        <activity
             android:name="com.example.foodwaste.LoginActivity"
             android:exported="true" >
             <intent-filter>
