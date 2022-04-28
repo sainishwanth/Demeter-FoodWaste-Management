@@ -86,16 +86,16 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/backtn"
-        android:layout_width="63dp"
-        android:layout_height="57dp"
+        android:layout_width="77dp"
+        android:layout_height="71dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="6dp"
         android:layout_marginTop="26dp"
-        android:layout_marginEnd="342dp"
-        android:layout_marginBottom="648dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="634dp"
         android:backgroundTint="@color/white"
         android:src="@drawable/ic_baseline_arrow_back_24" />
 </RelativeLayout>

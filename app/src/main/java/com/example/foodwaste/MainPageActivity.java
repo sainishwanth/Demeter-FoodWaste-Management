@@ -46,8 +46,7 @@ public class MainPageActivity extends AppCompatActivity {
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Context context = getApplicationContext();
-                Toast.makeText(context, "Item has been Marked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Item has been Marked", Toast.LENGTH_SHORT).show();
                 itemList.remove(i);
                 itemAdapter.notifyDataSetChanged();
                 return true;
