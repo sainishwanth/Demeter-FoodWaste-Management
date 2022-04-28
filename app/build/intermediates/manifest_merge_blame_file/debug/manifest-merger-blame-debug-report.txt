@@ -19,8 +19,8 @@
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:8:9-41
+16        android:label="Demeter"
+16-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:8:9-32
 17        android:roundIcon="@mipmap/ic_launcher_round"
 17-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
