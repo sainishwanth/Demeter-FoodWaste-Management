@@ -1,4 +1,4 @@
-# DEMETER 
+# DEMETER (Work in Progress)
 ### IV-th Semester Project
 
 ## The Food Waste Management App
