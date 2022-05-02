@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/sainishwanth/.gradle/caches/transforms-3/b799179d0f364501512efedbe756bc89/transformed/recyclerview-1.1.0/res/values/values.xml",
@@ -23,20 +23,39 @@
                     }
                 },
                 {
-                    "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/values/colors.xml",
+                    "source": "/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
+                        "startLines": "3,1,6,11,12,8,9,7,4,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "109,16,257,472,542,387,425,321,140,63",
+                        "endColumns": "30,46,63,69,82,37,45,65,61,45",
+                        "endOffsets": "135,58,316,537,620,420,466,382,197,104"
                     },
                     "to": {
-                        "startLines": "586,804,805,806,817,818,822",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "29799,45453,45500,45547,46291,46336,46544",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "29836,45495,45542,45589,46331,46376,46581"
+                        "startLines": "1569,1598,1611,1612,1613,1700,1706,1708,1710,1711",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "95225,97204,98663,98727,98797,111446,112286,112385,112522,112584",
+                        "endColumns": "29,46,63,69,82,37,45,65,61,45",
+                        "endOffsets": "95250,97246,98722,98792,98875,111479,112327,112446,112579,112625"
+                    }
+                },
+                {
+                    "source": "/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2,21,16,23",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "100,980,822,1079",
+                        "endLines": "14,21,19,23",
+                        "endColumns": "12,97,12,87",
+                        "endOffsets": "816,1073,974,1162"
+                    },
+                    "to": {
+                        "startLines": "5555,5568,5569,5573",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "378968,379687,379784,379941",
+                        "endLines": "5567,5568,5572,5573",
+                        "endColumns": "12,96,12,86",
+                        "endOffsets": "379682,379779,379936,380023"
                     }
                 },
                 {
@@ -75,23 +94,6 @@
                         "endLines": "115,118,917,10131",
                         "endColumns": "55,47,51,24",
                         "endOffsets": "5732,5888,52907,651023"
-                    }
-                },
-                {
-                    "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "969",
-                        "startColumns": "4",
-                        "startOffsets": "56235",
-                        "endColumns": "41",
-                        "endOffsets": "56272"
                     }
                 },
                 {
@@ -184,25 +186,6 @@
                     }
                 },
                 {
-                    "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2,21,16,23",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "100,980,822,1079",
-                        "endLines": "14,21,19,23",
-                        "endColumns": "12,97,12,87",
-                        "endOffsets": "816,1073,974,1162"
-                    },
-                    "to": {
-                        "startLines": "5555,5568,5569,5573",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "378968,379687,379784,379941",
-                        "endLines": "5567,5568,5572,5573",
-                        "endColumns": "12,96,12,86",
-                        "endOffsets": "379682,379779,379936,380023"
-                    }
-                },
-                {
                     "source": "/Users/sainishwanth/.gradle/caches/transforms-3/8742cedd6e53d6c8bde8758fbfec522e/transformed/navigation-runtime-2.3.5/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,10,13",
@@ -255,23 +238,6 @@
                         "startOffsets": "91790",
                         "endColumns": "42",
                         "endOffsets": "91828"
-                    }
-                },
-                {
-                    "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "3,1,6,11,12,8,9,7,4,2",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "109,16,257,472,542,387,425,321,140,63",
-                        "endColumns": "30,46,63,69,82,37,45,65,61,45",
-                        "endOffsets": "135,58,316,537,620,420,466,382,197,104"
-                    },
-                    "to": {
-                        "startLines": "1569,1598,1611,1612,1613,1700,1706,1708,1710,1711",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "95225,97204,98663,98727,98797,111446,112286,112385,112522,112584",
-                        "endColumns": "29,46,63,69,82,37,45,65,61,45",
-                        "endOffsets": "95250,97246,98722,98792,98875,111479,112327,112446,112579,112625"
                     }
                 },
                 {
@@ -385,6 +351,23 @@
                     }
                 },
                 {
+                    "source": "/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "586,804,805,806,817,818,822",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "29799,45453,45500,45547,46291,46336,46544",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "29836,45495,45542,45589,46331,46376,46581"
+                    }
+                },
+                {
                     "source": "/Users/sainishwanth/.gradle/caches/transforms-3/0f8235bcdb9d8ea4b579d5454d88f9d4/transformed/navigation-common-2.3.5/res/values/values.xml",
                     "from": {
                         "startLines": "2,13,19,25,28",
@@ -401,6 +384,23 @@
                         "endLines": "11183,11189,11195,11198,11377",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "702242,702486,702733,702866,713493"
+                    }
+                },
+                {
+                    "source": "/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
+                        "startLines": "969",
+                        "startColumns": "4",
+                        "startOffsets": "56235",
+                        "endColumns": "41",
+                        "endOffsets": "56272"
                     }
                 },
                 {
