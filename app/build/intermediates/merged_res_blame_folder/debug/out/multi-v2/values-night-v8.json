@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

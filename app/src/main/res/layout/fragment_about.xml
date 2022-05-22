@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AboutFragment"
+    android:background="@drawable/gradient_2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="About Page"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="65dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="331dp"
+        android:layout_height="388dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="241dp"
+        android:gravity="center_vertical"
+        android:text="Creators:\n\nSai Nishwanth Raj\n\nRaghav Nanjappan\n\nPunith Pecheti\n\nChalla Priyankar"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="197dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="497dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="37dp"
+        android:gravity="center_vertical"
+        android:text="Guide:\n\nDr.Chaya S. Dule"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

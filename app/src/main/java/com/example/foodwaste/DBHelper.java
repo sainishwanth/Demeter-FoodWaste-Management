@@ -7,6 +7,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 public class DBHelper extends SQLiteOpenHelper {
+    public static String phno;
+    public static String email;
+    public static String type;
     public static final String DBNAME = "Login.db";
     public DBHelper(Context context) {
         super(context, "Login.db", null, 1);
@@ -14,7 +17,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase MyDB) {
-        MyDB.execSQL("create Table users(username TEXT primary key, password TEXT)");
+        MyDB.execSQL("create Table users(username TEXT primary key, password TEXT, phno TEXT, email TEXT,address TEXT, type TEXT)");
     }
 
     @Override
@@ -22,7 +25,7 @@ public class DBHelper extends SQLiteOpenHelper {
         MyDB.execSQL("drop Table if exists users");
     }
 
-    public Boolean insertData(String username, String password){
+    public Boolean insertData(String username, String password, String phno, String email, String address, String type){
         SQLiteDatabase MyDB = this.getWritableDatabase();
         ContentValues contentValues= new ContentValues();
         contentValues.put("username", username);

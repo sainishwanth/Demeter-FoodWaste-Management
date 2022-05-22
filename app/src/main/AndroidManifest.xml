@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodWaste">
         <activity
+            android:name=".NavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/Theme.FoodWaste.NoActionBar" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity

@@ -27,7 +27,7 @@ public class MainPageActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_page);
+        setContentView(R.layout.fragment_home);
         listView = findViewById(R.id.list);
         btn = findViewById(R.id.btnAdd);
         btn.setOnClickListener(new View.OnClickListener() {

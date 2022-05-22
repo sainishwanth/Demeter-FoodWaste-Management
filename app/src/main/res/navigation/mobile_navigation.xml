@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.foodwaste.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.foodwaste.ui.AboutFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.foodwaste.ui.Contact"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_compost"
+        android:name="com.example.foodwaste.ui.Compost"
+        android:label="Compost"
+        tools:layout="@layout/fragment_compost"/>
+</navigation>

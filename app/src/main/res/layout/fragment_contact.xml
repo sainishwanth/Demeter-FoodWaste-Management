@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Contact"
+    android:background="@drawable/gradient_2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="Contact Us"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="65dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="185dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="356dp"
+        android:gravity="center_vertical"
+        android:text="Phone Number:\n\n+91 83107 6220\n\n+91 88806 20320"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="93dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:text="Email:\n\nSainishwanthraj@gmail.com\n\nPunith.canada@gmail.com"/>
+</RelativeLayout>

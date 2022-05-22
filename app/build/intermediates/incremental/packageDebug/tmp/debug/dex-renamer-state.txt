@@ -1,13 +1,19 @@
-#Tue May 03 00:47:38 IST 2022
-path.3=3/classes.dex
+#Sun May 22 17:12:08 IST 2022
+path.4=3/classes.dex
+path.3=12/classes.dex
 path.2=10/classes.dex
 path.1=0/classes.dex
+path.5=7/classes.dex
 path.0=classes.dex
-base.3=/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.2=/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
-base.1=/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.3=/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+base.2=/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+base.1=/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+base.5=/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex

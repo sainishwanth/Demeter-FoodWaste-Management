@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sainishwanth/AndroidStudioProjects/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "/Users/sainishwanth/.gradle/caches/transforms-3/b9e4376e452ce4f1a2bbb1fc4b534124/transformed/core-1.7.0/res/values-zh-rTW/values-zh-rTW.xml",

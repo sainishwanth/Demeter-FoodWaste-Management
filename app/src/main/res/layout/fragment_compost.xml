@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Compost"
+    android:background="@drawable/gradient_2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Compost"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="267dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="30dp"
+
+            android:background="@drawable/compost" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First, designate a compost site. The backyard is a great location, primarily for aesthetic and olfactory reasons. Compost bins are often used, but they’re not essential.
+Make sure the site or pile is large enough to be effective, but small enough to be manageable. Then just follow the recipe! The bottom layer of the compost pile should be bare earth. Next, layer
+twigs or straw to help with drainage and aeration of the pile. Now alternate layers–moist (ex. food scraps) and dry (ex. leaves or straw). It is important to add manure or any other nitrogen source.
+Also make sure that the pile stays moist by watering with a hose or sprinkler or by rainfall. When the pile is sufficient, cover it with plastic sheeting, wood, a tarp, etc. The last step is to turn the pile every few weeks to give it some oxygen.
+The compost is finished when it’s dark, rich in color, and the original contents should not be distinguishable."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+</ScrollView>
