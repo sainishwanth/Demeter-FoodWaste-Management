@@ -8,10 +8,13 @@
     -> Resolution - 1920*1080
 
 
-### Login Activity                                                              
+### Login Activity&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Signup Activity                                                  
 
-<img width="323" alt="Screenshot 2022-05-03 at 12 57 57 AM" src="https://user-images.githubusercontent.com/76573095/166312432-fc256b7f-12c1-4ca5-beed-8a7d2ef5a9c2.png">  
+<img width="323" alt="Screenshot 2022-05-03 at 12 57 57 AM" src="https://user-images.githubusercontent.com/76573095/166312432-fc256b7f-12c1-4ca5-beed-8a7d2ef5a9c2.png">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](https://media.giphy.com/media/SQXD4gtGpDn45vRMhE/giphy.gif)
 
-### Signup Activity
 
-<img width="323" alt="Screenshot 2022-05-03 at 12 59 10 AM" src="https://user-images.githubusercontent.com/76573095/166312622-07628851-a9af-4412-a2cb-083ddcf8a388.png">
+### Compost Fragment
+
+![](https://media.giphy.com/media/zDz3qZLlDndoQ4UCKy/giphy.gif)
+
+
