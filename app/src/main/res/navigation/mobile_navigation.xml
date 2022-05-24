@@ -10,6 +10,11 @@
         android:name="com.example.foodwaste.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.foodwaste.ui.profile"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile"/>
 
     <fragment
         android:id="@+id/nav_about"

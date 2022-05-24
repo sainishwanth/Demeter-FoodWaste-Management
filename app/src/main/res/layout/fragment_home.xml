@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainPageActivity"
+    tools:context=".NavActivity"
+    android:id="@+id/nav_home"
     android:background="@drawable/gradient_2">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

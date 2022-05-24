@@ -68,6 +68,9 @@ id nav_id
 id nav_profile
 id nav_view
 id password
+id profilemail
+id profilephno
+id profileusername
 id signin
 id signup
 id signupbtn
@@ -91,6 +94,7 @@ layout fragment_about
 layout fragment_compost
 layout fragment_contact
 layout fragment_home
+layout fragment_profile
 layout nav_header_nav
 menu activity_nav2_drawer
 menu nav

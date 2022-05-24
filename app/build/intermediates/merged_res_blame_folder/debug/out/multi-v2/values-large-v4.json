@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.foodwaste.app-mergeDebugResources-33:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/914116008979e77bc79da871871e9f31/transformed/appcompat-1.4.1/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/3b1bc201b3bca652ca8cba6f27421397/transformed/appcompat-1.4.1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/f4644d49845b47ba06b9572c54ce16a0/transformed/material-1.5.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/0b61725ab4c930b151c4488a893666fd/transformed/material-1.5.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",

@@ -7,13 +7,15 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 public class DBHelper extends SQLiteOpenHelper {
-    public static String phno;
-    public static String email;
-    public static String type;
+    public static String checkuser;
+    public static String checkph;
+    public static String checkemail;
+    public static String checktype;
     public static final String DBNAME = "Login.db";
     public DBHelper(Context context) {
         super(context, "Login.db", null, 1);
     }
+
 
     @Override
     public void onCreate(SQLiteDatabase MyDB) {
@@ -30,6 +32,14 @@ public class DBHelper extends SQLiteOpenHelper {
         ContentValues contentValues= new ContentValues();
         contentValues.put("username", username);
         contentValues.put("password", password);
+        contentValues.put("phno", phno);
+        contentValues.put("email", email);
+        contentValues.put("address", address);
+        contentValues.put("type", type);
+        checkuser = username;
+        checkph = phno;
+        checkemail = email;
+        checktype = type;
         long result = MyDB.insert("users", null, contentValues);
         return result != -1;
     }
@@ -44,5 +54,14 @@ public class DBHelper extends SQLiteOpenHelper {
         SQLiteDatabase MyDB = this.getWritableDatabase();
         Cursor cursor = MyDB.rawQuery("Select * from users where username = ? and password = ?", new String[] {username,password});
         return cursor.getCount() > 0;
+    }
+
+    public void setData(String username){
+
+    }
+
+    public String getData(String username, String target){
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        return username;
     }
 }

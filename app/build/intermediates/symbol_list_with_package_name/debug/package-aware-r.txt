@@ -2935,6 +2935,9 @@ id percent
 id pin
 id position
 id postLayout
+id profilemail
+id profilephno
+id profileusername
 id progress_circular
 id progress_horizontal
 id radio
@@ -3206,6 +3209,7 @@ layout fragment_about
 layout fragment_compost
 layout fragment_contact
 layout fragment_home
+layout fragment_profile
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
