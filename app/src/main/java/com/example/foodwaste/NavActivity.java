@@ -25,10 +25,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.foodwaste.databinding.ActivityNavBinding;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 public class NavActivity extends AppCompatActivity {
-
+    private TextView nav_profile;
+    private TextView nav_email;
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityNavBinding binding;
     @Override
@@ -37,7 +40,6 @@ public class NavActivity extends AppCompatActivity {
 
         binding = ActivityNavBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
         setSupportActionBar(binding.appBarNav.toolbar);
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
@@ -50,6 +52,15 @@ public class NavActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_nav);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+        View headerView = navigationView.getHeaderView(0);
+        nav_profile = headerView.findViewById(R.id.nav_profile_id);
+        nav_email = headerView.findViewById(R.id.nav_profile_email);
+        try {
+            nav_profile.setText(DBHelper.checkuser);
+            nav_email.setText(DBHelper.checkemail);
+        }catch(NullPointerException e){
+            e.printStackTrace();
+        }
     }
 
     @Override

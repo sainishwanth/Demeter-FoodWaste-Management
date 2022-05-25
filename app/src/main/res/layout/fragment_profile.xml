@@ -195,14 +195,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Address"
+                android:text="Account Type"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="25dp"
                 android:layout_marginLeft="5dp"
                 />
             <TextView
-                android:id="@+id/profile_address"
+                android:id="@+id/profile_type"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
@@ -210,9 +210,6 @@
                 android:textStyle="italic"
                 android:textColor="@color/black"
                 />
-
-
-
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -240,14 +237,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Account Type"
+                android:text="Address"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="25dp"
                 android:layout_marginLeft="5dp"
                 />
             <TextView
-                android:id="@+id/profile_type"
+                android:id="@+id/profile_address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
@@ -255,9 +252,6 @@
                 android:textStyle="italic"
                 android:textColor="@color/black"
                 />
-
-
-
         </LinearLayout>
         <View
             android:layout_width="match_parent"

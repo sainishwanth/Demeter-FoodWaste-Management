@@ -68,7 +68,8 @@ public class LoginActivity extends AppCompatActivity {
         backbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                Toast.makeText(LoginActivity.this, "Exiting", Toast.LENGTH_SHORT).show();
+                finishAndRemoveTask();
             }
         });
     }
