@@ -2506,6 +2506,7 @@ int drawable ic_baseline_contact_page_24 0x7f080072
 int drawable ic_baseline_food_bank_24 0x7f080073
 int drawable ic_baseline_home_24 0x7f080074
 int drawable ic_baseline_info_24 0x7f080075
+int drawable ic_baseline_logout_24 0x7f0800bb
 int drawable ic_baseline_phone_24 0x7f080076
 int drawable ic_baseline_radio_button_unchecked_24 0x7f0800ba
 int drawable ic_clock_black_24dp 0x7f080077
@@ -2898,6 +2899,7 @@ int id nav_graph2 0x7f09013f
 int id nav_home 0x7f090140
 int id nav_host_fragment_container 0x7f090141
 int id nav_host_fragment_content_nav 0x7f090142
+int id nav_logout 0x7f09021e
 int id nav_profile 0x7f090143
 int id nav_profile_email 0x7f090144
 int id nav_profile_id 0x7f090145
@@ -3231,6 +3233,7 @@ int layout fragment_about 0x7f0c0034
 int layout fragment_compost 0x7f0c0035
 int layout fragment_contact 0x7f0c0036
 int layout fragment_home 0x7f0c0037
+int layout fragment_logout 0x7f0c008d
 int layout fragment_profile 0x7f0c0038
 int layout m3_alert_dialog 0x7f0c0039
 int layout m3_alert_dialog_actions 0x7f0c003a

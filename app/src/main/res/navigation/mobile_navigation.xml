@@ -33,4 +33,10 @@
         android:name="com.example.foodwaste.ui.Compost"
         android:label="Compost"
         tools:layout="@layout/fragment_compost"/>
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.foodwaste.ui.Logout"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout"/>
 </navigation>

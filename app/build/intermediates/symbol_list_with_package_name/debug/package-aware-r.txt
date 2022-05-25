@@ -2507,6 +2507,7 @@ drawable ic_baseline_contact_page_24
 drawable ic_baseline_food_bank_24
 drawable ic_baseline_home_24
 drawable ic_baseline_info_24
+drawable ic_baseline_logout_24
 drawable ic_baseline_phone_24
 drawable ic_baseline_radio_button_unchecked_24
 drawable ic_clock_black_24dp
@@ -2899,6 +2900,7 @@ id nav_graph2
 id nav_home
 id nav_host_fragment_container
 id nav_host_fragment_content_nav
+id nav_logout
 id nav_profile
 id nav_profile_email
 id nav_profile_id
@@ -3232,6 +3234,7 @@ layout fragment_about
 layout fragment_compost
 layout fragment_contact
 layout fragment_home
+layout fragment_logout
 layout fragment_profile
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

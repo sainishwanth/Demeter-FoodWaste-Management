@@ -25,5 +25,10 @@
             android:id="@+id/nav_compost"
             android:icon="@drawable/trash_img"
             android:title="Compost info" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Logout"/>
+
     </group>
 </menu>

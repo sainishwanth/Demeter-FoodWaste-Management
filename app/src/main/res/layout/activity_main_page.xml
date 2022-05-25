@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainPageActivity"
-    android:background="@drawable/background2gg">
+    android:background="@drawable/whitebg">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnAdd"
@@ -62,9 +62,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="127dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="69dp"
         android:drawableLeft="@drawable/ic_baseline_food_bank_24"
+        android:gravity="center"
         android:text="DEMETER"
         android:textAlignment="center"
         android:textColor="#ffba08"
