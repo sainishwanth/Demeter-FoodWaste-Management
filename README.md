@@ -10,7 +10,7 @@
 
 ### Login Activity&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Signup Activity                                                  
 
-<img width="323" alt="Screenshot 2022-05-03 at 12 57 57 AM" src="https://user-images.githubusercontent.com/76573095/166312432-fc256b7f-12c1-4ca5-beed-8a7d2ef5a9c2.png">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](https://media.giphy.com/media/SQXD4gtGpDn45vRMhE/giphy.gif)
+<img width="334" alt="Screenshot 2022-05-25 at 5 09 34 PM" src="https://user-images.githubusercontent.com/76573095/170253621-3b69f35f-4233-4140-92dc-ca3ae7f31086.png">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](https://media.giphy.com/media/SQXD4gtGpDn45vRMhE/giphy.gif)
 
 
 ### Compost Fragment
