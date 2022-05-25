@@ -13,9 +13,10 @@
 <img width="334" alt="Screenshot 2022-05-25 at 5 09 34 PM" src="https://user-images.githubusercontent.com/76573095/170253621-3b69f35f-4233-4140-92dc-ca3ae7f31086.png">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img width="340" alt="Screenshot 2022-05-25 at 5 21 40 PM" src="https://user-images.githubusercontent.com/76573095/170255715-7ebbd328-f30f-4557-8541-eb460ec03347.png">
 
 
-### Settings Page
+### Settings Page &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Profile Page
 
-<img width="340" alt="Screenshot 2022-05-25 at 5 22 06 PM" src="https://user-images.githubusercontent.com/76573095/170255776-4191527e-74f5-4297-9e06-f9832db3cec5.png">
+<img width="340" alt="Screenshot 2022-05-25 at 5 22 06 PM" src="https://user-images.githubusercontent.com/76573095/170255776-4191527e-74f5-4297-9e06-f9832db3cec5.png">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img width="317" alt="Screenshot 2022-05-25 at 11 22 07 PM" src="https://user-images.githubusercontent.com/76573095/170330405-3ebbcfa6-25cb-4a73-af87-309177bb7c6b.png">
+
 
 
 
