@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings_phno"
+    android:background="@drawable/background2gg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="268dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="130dp"
+            android:text="Ph No. Reset"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/settings_new_email"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="200dp"
+            android:background="@drawable/custom_input"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:hint="Enter Your New Ph. No"
+            android:inputType="number"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/password_reset_button"
+            android:layout_width="213dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginBottom="100dp"
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white" />
+    </LinearLayout>
+
+</ScrollView>

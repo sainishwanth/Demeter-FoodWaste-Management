@@ -29,5 +29,26 @@ public class Settings_Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), settings_email.class);
+                startActivity(intent);
+            }
+        });
+        phno.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), settings_phno.class);
+                startActivity(intent);
+            }
+        });
+        address.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), settings_address.class);
+                startActivity(intent);
+            }
+        });
     }
 }

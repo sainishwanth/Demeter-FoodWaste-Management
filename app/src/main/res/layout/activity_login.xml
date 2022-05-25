@@ -10,23 +10,23 @@
 
     <TextView
         android:id="@+id/signin"
-        android:layout_width="match_parent"
+        android:layout_width="162dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="237dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="390dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="425dp"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#35faedcd"
         android:gravity="center"
         android:text="Login"
-        android:textColor="#012a4a"
+        android:textColor="@color/black"
         android:textSize="40dp"
         android:textStyle="bold" />
-
-
 
     <EditText
         android:id="@+id/username"
@@ -36,10 +36,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="323dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="324dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="323dp"
         android:background="@drawable/custom_input"
         android:drawableLeft="@drawable/person_asset"
         android:drawablePadding="5dp"
@@ -59,9 +59,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="61dp"
+        android:layout_marginStart="57dp"
         android:layout_marginTop="417dp"
-        android:layout_marginEnd="49dp"
+        android:layout_marginEnd="53dp"
         android:layout_marginBottom="227dp"
         android:background="@drawable/custom_input"
         android:drawableLeft="@drawable/pass_lock"
@@ -79,8 +79,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="109dp"
-        android:layout_marginEnd="99dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="104dp"
         android:layout_marginBottom="120dp"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/login_button"
@@ -119,5 +119,5 @@
         android:layout_marginEnd="328dp"
         android:layout_marginBottom="632dp"
         android:backgroundTint="@color/white"
-        android:src="@drawable/ic_baseline_arrow_back_24"/>
+        android:src="@drawable/ic_baseline_arrow_back_24" />
 </RelativeLayout>

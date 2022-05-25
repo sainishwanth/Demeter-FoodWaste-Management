@@ -12,6 +12,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import android.util.Log;
 
 public class LoginActivity extends AppCompatActivity {
     private TextView username, password;
@@ -40,8 +41,14 @@ public class LoginActivity extends AppCompatActivity {
                 if(!(user.equals("") && (pass.equals("")))){
                     if(DB.checkusernamepassword(user,pass) || (user.equals("test")) && (pass.equals("test"))){
                         try{
+                            DBHelper.checkuser = user;
+                            Log.d("checkuser is", DBHelper.checkuser);
                             DB.getData(user);
-                        }catch(Exception e){}
+                            Log.d("checkuser is", DBHelper.checkphno);
+                            Log.d("checkuser is", DBHelper.checkemail);
+                            Log.d("checkuser is", DBHelper.checkaddress);
+                            Log.d("checkuser is", DBHelper.checktype);
+                        }catch (Exception e){}
                         Toast.makeText(LoginActivity.this, "Logged In! ", Toast.LENGTH_SHORT).show();
                         MainPageActivity();
                     }else{

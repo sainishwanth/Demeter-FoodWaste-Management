@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodWaste">
         <activity
+            android:name=".settings_address"
+            android:exported="false" />
+        <activity
+            android:name=".settings_phno"
+            android:exported="false" />
+        <activity
+            android:name=".settings_email"
+            android:exported="false" />
+        <activity
             android:name=".settings_password"
             android:exported="false" />
         <activity

@@ -1,109 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.profile"
-    android:background="@drawable/background2gg">
+    tools:context=".ui.Profile"
+    android:background="@drawable/whitebg">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Profile"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#e63946"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#e63946"/>
+
 
         <ImageView
+            android:id="@+id/image_view"
             android:layout_width="200dp"
             android:layout_height="150dp"
-            android:background="@drawable/person_asset"
+            android:background="@drawable/profile_img"
+            android:backgroundTint="@color/white"
             android:layout_gravity="center"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="50dp"
             />
-        <TextView
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="40dp"
-            android:text="Username"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-        <TextView
-            android:id="@+id/profile_username"
-            android:background="@drawable/custom_input"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="2dp"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="20dp"
-            android:text="Email - "
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-        <TextView
-            android:id="@+id/profile_email"
-            android:background="@drawable/custom_input"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="2dp"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="40dp"
-            android:text="Ph no - "
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-        <TextView
-            android:id="@+id/profileusername"
-            android:background="@drawable/custom_input"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="2dp"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="40dp"
-            android:text="Account Type - "
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-        <TextView
-            android:id="@+id/profile_type"
-            android:background="@drawable/custom_input"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="2dp"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="40dp"
-            android:text="Address - "
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-        <TextView
-            android:id="@+id/profile_address"
-            android:background="@drawable/custom_input"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="2dp"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#e63946"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/person_asset"
+            app:tint="#e63946" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/profile_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#a9a9a9"
+            android:padding="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_alternate_email_24"
+                app:tint="#e63946" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/profile_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#a9a9a9"
+            android:padding="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_phone_24"
+                app:tint="#e63946" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ph No."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/profile_phno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#a9a9a9"
+            android:padding="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/home_address"
+                app:tint="#e63946" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/profile_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#a9a9a9"
+            android:padding="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_radio_button_unchecked_24"
+                app:tint="#e63946" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account Type"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/profile_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#a9a9a9"
+            android:padding="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"/>
 
     </LinearLayout>
 

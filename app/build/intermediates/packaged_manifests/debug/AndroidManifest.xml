@@ -19,6 +19,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.FoodWaste" >
         <activity
+            android:name="com.example.foodwaste.settings_address"
+            android:exported="false" />
+        <activity
+            android:name="com.example.foodwaste.settings_phno"
+            android:exported="false" />
+        <activity
+            android:name="com.example.foodwaste.settings_email"
+            android:exported="false" />
+        <activity
             android:name="com.example.foodwaste.settings_password"
             android:exported="false" />
         <activity

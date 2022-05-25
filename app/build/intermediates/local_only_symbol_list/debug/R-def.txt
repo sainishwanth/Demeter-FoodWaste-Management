@@ -23,6 +23,7 @@ drawable foodbackbround
 drawable foodbackground
 drawable gradient_2
 drawable home_address
+drawable ic_baseline_account_box_24
 drawable ic_baseline_add_24
 drawable ic_baseline_alternate_email_24
 drawable ic_baseline_arrow_back_24
@@ -31,6 +32,7 @@ drawable ic_baseline_food_bank_24
 drawable ic_baseline_home_24
 drawable ic_baseline_info_24
 drawable ic_baseline_phone_24
+drawable ic_baseline_radio_button_unchecked_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_menu_camera
@@ -42,6 +44,7 @@ drawable person_asset
 drawable profile_img
 drawable side_nav_bar
 drawable trash_img
+drawable whitebg
 id First2Fragment
 id FirstFragment
 id LoginButton
@@ -56,6 +59,7 @@ id app_bar_nav
 id backtn
 id btnAdd
 id drawer_layout
+id image_view
 id itemText
 id list
 id mobile_navigation
@@ -74,11 +78,12 @@ id password
 id password_reset_button
 id profile_address
 id profile_email
+id profile_phno
 id profile_type
-id profile_username
-id profileusername
+id profile_user
 id settings_add
 id settings_email
+id settings_new_email
 id settings_new_password
 id settings_old_password
 id settings_password
@@ -101,7 +106,10 @@ layout activity_login
 layout activity_main_page
 layout activity_nav
 layout activity_settings
+layout activity_settings_address
+layout activity_settings_email
 layout activity_settings_password
+layout activity_settings_phno
 layout activity_sign_up
 layout app_bar_nav
 layout content_nav

@@ -3,13 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
     android:background="@drawable/foodbackbround"
     tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/backtn"
             android:layout_width="77dp"
@@ -28,46 +30,40 @@
         android:id="@+id/signup"
         android:layout_width="match_parent"
         android:layout_height="104dp"
-
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="10dp"
         android:gravity="center"
         android:text="Sign Up"
+        android:background="@drawable/custom_input"
+        android:backgroundTint="#35faedcd"
         android:textColor="@color/black"
         android:textSize="40dp"
         android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/supusername"
-        android:layout_width="309dp"
-        android:layout_height="83dp"
-        android:layout_alignParentStart="true"
-        android:background="@drawable/custom_input"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="112dp"
-        android:layout_marginBottom="30dp"
-        android:drawableLeft="@drawable/person_asset"
-        android:drawablePadding="5dp"
-        android:hint="Enter a Username"
-        android:imeOptions="actionDone"
-        android:inputType="text"
-        android:textColor="@color/black"
-        android:textColorHighlight="@color/black" />
+        <EditText
+            android:id="@+id/supusername"
+            android:layout_width="309dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/custom_input"
+            android:drawableLeft="@drawable/person_asset"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:hint="Enter a Username"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black" />
 
         <EditText
             android:id="@+id/suppassword"
             android:layout_width="309dp"
-            android:layout_height="83dp"
+            android:layout_height="70dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
             android:layout_marginEnd="111dp"
@@ -82,7 +78,7 @@
         <EditText
             android:id="@+id/supemail"
             android:layout_width="309dp"
-            android:layout_height="83dp"
+            android:layout_height="70dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
             android:layout_marginEnd="111dp"
@@ -98,7 +94,7 @@
         <EditText
             android:id="@+id/supph"
             android:layout_width="309dp"
-            android:layout_height="83dp"
+            android:layout_height="70dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
             android:layout_marginEnd="111dp"
@@ -110,22 +106,18 @@
             android:background="@drawable/custom_input"
             android:drawableLeft="@drawable/ic_baseline_phone_24"
             android:drawablePadding="5dp"/>
-        <ScrollView
-            android:layout_width="309dp"
-            android:layout_height="200dp"
-            >
             <EditText
                 android:id="@+id/supadd"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="309dp"
+                android:layout_height="150dp"
                 android:textColor="@color/black"
+                android:layout_marginBottom="30dp"
                 android:hint="Address"
                 android:textSize="20dp"
                 android:background="@drawable/custom_input"
                 android:textStyle="bold"
                 android:drawableLeft="@drawable/home_address"
                 />
-        </ScrollView>
         
         <TextView
             android:layout_width="300dp"
@@ -134,6 +126,10 @@
             android:textSize="20dp"
             android:layout_marginBottom="30dp"
             android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/custom_input"
+            android:backgroundTint="#35faedcd"
             />
         <Spinner
             android:id="@+id/typespinner"
@@ -143,6 +139,7 @@
             android:textAlignment="center"
             android:layout_gravity="center"
             />
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/signupbutton"
             android:layout_width="174dp"
@@ -150,17 +147,18 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="74dp"
-            android:layout_marginEnd="134dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginBottom="120dp"
             android:layout_gravity="center"
-            android:gravity="center"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="134dp"
             android:layout_marginRight="100dp"
+            android:layout_marginBottom="120dp"
             android:backgroundTint="@color/white"
             android:drawableLeft="@drawable/login_button"
             android:drawablePadding="1dp"
+            android:gravity="center"
             android:text="Sign up"
+            android:layout_marginLeft="50dp"
             android:textColor="@color/black"
             android:textStyle="bold" />
     </LinearLayout>

@@ -2498,6 +2498,7 @@ int drawable foodbackbround 0x7f08006b
 int drawable foodbackground 0x7f08006c
 int drawable gradient_2 0x7f08006d
 int drawable home_address 0x7f08006e
+int drawable ic_baseline_account_box_24 0x7f0800b9
 int drawable ic_baseline_add_24 0x7f08006f
 int drawable ic_baseline_alternate_email_24 0x7f080070
 int drawable ic_baseline_arrow_back_24 0x7f080071
@@ -2506,6 +2507,7 @@ int drawable ic_baseline_food_bank_24 0x7f080073
 int drawable ic_baseline_home_24 0x7f080074
 int drawable ic_baseline_info_24 0x7f080075
 int drawable ic_baseline_phone_24 0x7f080076
+int drawable ic_baseline_radio_button_unchecked_24 0x7f0800ba
 int drawable ic_clock_black_24dp 0x7f080077
 int drawable ic_keyboard_black_24dp 0x7f080078
 int drawable ic_launcher_background 0x7f080079
@@ -2571,6 +2573,7 @@ int drawable test_level_drawable 0x7f0800b4
 int drawable tooltip_frame_dark 0x7f0800b5
 int drawable tooltip_frame_light 0x7f0800b6
 int drawable trash_img 0x7f0800b7
+int drawable whitebg 0x7f0800b8
 int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
@@ -2802,6 +2805,7 @@ int id ifRoom 0x7f0900e3
 int id ignore 0x7f0900e4
 int id ignoreRequest 0x7f0900e5
 int id image 0x7f0900e6
+int id image_view 0x7f09021d
 int id immediateStop 0x7f0900e7
 int id included 0x7f0900e8
 int id info 0x7f0900e9
@@ -2940,9 +2944,9 @@ int id position 0x7f09016d
 int id postLayout 0x7f09016e
 int id profile_address 0x7f09016f
 int id profile_email 0x7f090170
+int id profile_phno 0x7f09021b
 int id profile_type 0x7f090171
-int id profile_username 0x7f090172
-int id profileusername 0x7f090173
+int id profile_user 0x7f09021c
 int id progress_circular 0x7f090174
 int id progress_horizontal 0x7f090175
 int id radio 0x7f090176
@@ -2980,6 +2984,7 @@ int id selected 0x7f090195
 int id selection_type 0x7f090196
 int id settings_add 0x7f090197
 int id settings_email 0x7f090198
+int id settings_new_email 0x7f09021a
 int id settings_new_password 0x7f090199
 int id settings_old_password 0x7f09019a
 int id settings_password 0x7f09019b
@@ -3199,7 +3204,10 @@ int layout activity_login 0x7f0c001c
 int layout activity_main_page 0x7f0c001d
 int layout activity_nav 0x7f0c001e
 int layout activity_settings 0x7f0c001f
+int layout activity_settings_address 0x7f0c008a
+int layout activity_settings_email 0x7f0c008b
 int layout activity_settings_password 0x7f0c0020
+int layout activity_settings_phno 0x7f0c008c
 int layout activity_sign_up 0x7f0c0021
 int layout app_bar_nav 0x7f0c0022
 int layout content_nav 0x7f0c0023

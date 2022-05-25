@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_profile"
-        android:name="com.example.foodwaste.ui.profile"
+        android:name="com.example.foodwaste.ui.Profile"
         android:label="profile"
         tools:layout="@layout/fragment_profile"/>
 

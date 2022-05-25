@@ -33,9 +33,7 @@ public class SignUpActivity extends AppCompatActivity implements AdapterView.OnI
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         try {
             spinner.setAdapter(adapter);
-        }catch(NullPointerException e){
-
-        }
+        }catch(NullPointerException e){}
         username = findViewById(R.id.supusername);
         password = findViewById(R.id.suppassword);
         signup = findViewById(R.id.signupbutton);
@@ -60,7 +58,7 @@ public class SignUpActivity extends AppCompatActivity implements AdapterView.OnI
                 String dbpno = phno.getText().toString();
                 String dbemail = email.getText().toString();
                 String dbaddress = address.getText().toString();
-                if(!(user.equals("") && (pass.equals("")))){
+                if(!(user.equals("") || (pass.equals("")) || (dbpno.equals("")) || (dbemail.equals("")) || (dbaddress.equals(""))|| type.equals("Select"))){
                      if(!DB.checkusername(user)){
                          if(DB.insertData(user,pass,dbpno,dbemail,dbaddress,type)){
                              Toast.makeText(SignUpActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();

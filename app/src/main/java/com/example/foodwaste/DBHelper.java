@@ -7,13 +7,13 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper {
     public static String checkuser;
-    public static String checkph;
+    public static String checkphno;
     public static String checkemail;
-    public static String checkadd;
+    public static String checkaddress;
     public static String checktype;
     public static final String DBNAME = "Login.db";
     public DBHelper(Context context) {
-        super(context, "Login.db", null, 1);
+        super(context, "Login.db", null, 2);
     }
 
 
@@ -24,6 +24,8 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase MyDB, int i, int i1) {
+        MyDB.execSQL("drop table if exists users");
+        onCreate(MyDB);
     }
 
     public Boolean insertData(String username, String password, String phno, String email, String address, String type){
@@ -52,10 +54,13 @@ public class DBHelper extends SQLiteOpenHelper {
     }
     public void getData(String username){
         SQLiteDatabase MyDB = this.getWritableDatabase();
-        checkuser = username;
-        checkph = String.valueOf(MyDB.rawQuery("Select phno from users where username = ?", new String[]{username}));
-        checkemail = String.valueOf(MyDB.rawQuery("Select email from users where username = ?", new String[]{username}));
-        checkadd = String.valueOf(MyDB.rawQuery("Select address from users where username = ?", new String[]{username}));
-        checktype = String.valueOf(MyDB.rawQuery("Select type from users where username = ?", new String[]{username}));
+        Cursor cursor = MyDB.rawQuery("Select * from users where username = ?", new String[] {username});
+        while(cursor.moveToNext()){
+            checkphno = cursor.getString(2);
+            checkemail = cursor.getString(3);
+            checkaddress = cursor.getString(4);
+            checktype = cursor.getString(5);
+        }
+        cursor.close();
     }
 }

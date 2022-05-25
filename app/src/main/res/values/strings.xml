@@ -27,6 +27,7 @@
     <string name="change_password">Change Password</string>
 
     <string-array name="Type">
+        <item>Select</item>
         <item>Donator</item>
         <item>NGO</item>
     </string-array>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <string-array name="Type">
+        <item>Select</item>
         <item>Donator</item>
         <item>NGO</item>
     </string-array>
