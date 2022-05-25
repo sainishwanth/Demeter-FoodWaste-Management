@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.profile"
-    android:background="@drawable/gradient_2">
+    android:background="@drawable/background2gg">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,34 +14,59 @@
         <ImageView
             android:layout_width="200dp"
             android:layout_height="150dp"
-            android:background="@drawable/trash_img"
+            android:background="@drawable/person_asset"
             android:layout_gravity="center"
             android:layout_marginTop="100dp"
             />
-
         <TextView
-            android:id="@+id/profileusername"
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:layout_marginTop="40dp"
+            android:text="Username"
             android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="@color/black"/>
         <TextView
-            android:id="@+id/profilemail"
+            android:id="@+id/profile_username"
+            android:background="@drawable/custom_input"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
             android:text="Email - "
             android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="@color/black"/>
         <TextView
-            android:id="@+id/profilephno"
+            android:id="@+id/profile_email"
+            android:background="@drawable/custom_input"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:layout_marginTop="40dp"
             android:text="Ph no - "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/profileusername"
+            android:background="@drawable/custom_input"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
             android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="@color/black"/>
@@ -54,10 +79,28 @@
             android:textStyle="bold"
             android:textColor="@color/black"/>
         <TextView
+            android:id="@+id/profile_type"
+            android:background="@drawable/custom_input"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:layout_marginTop="40dp"
             android:text="Address - "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/profile_address"
+            android:background="@drawable/custom_input"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
             android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="@color/black"/>

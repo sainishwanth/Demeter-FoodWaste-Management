@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
         username = (TextView) findViewById(R.id.username);
         password = (TextView) findViewById(R.id.password);
         login = findViewById(R.id.LoginButton);
@@ -39,6 +39,9 @@ public class LoginActivity extends AppCompatActivity {
                 String pass = password.getText().toString();
                 if(!(user.equals("") && (pass.equals("")))){
                     if(DB.checkusernamepassword(user,pass) || (user.equals("test")) && (pass.equals("test"))){
+                        try{
+                            DB.getData(user);
+                        }catch(Exception e){}
                         Toast.makeText(LoginActivity.this, "Logged In! ", Toast.LENGTH_SHORT).show();
                         MainPageActivity();
                     }else{

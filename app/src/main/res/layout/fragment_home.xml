@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".NavActivity"
     android:id="@+id/nav_home"
-    android:background="@drawable/gradient_2">
+    android:background="@drawable/background2gg">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnAdd"

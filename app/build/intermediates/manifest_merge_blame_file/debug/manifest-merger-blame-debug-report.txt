@@ -11,7 +11,7 @@
 9-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:5:5-32:19
+11-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:5:5-41:19
 12        android:allowBackup="true"
 12-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,66 +29,84 @@
 20        android:theme="@style/Theme.FoodWaste" >
 20-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:11:9-47
 21        <activity
-21-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:12:9-16:66
-22            android:name="com.example.foodwaste.NavActivity"
-22-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:13:13-40
-23            android:exported="false"
+21-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:12:9-14:40
+22            android:name="com.example.foodwaste.settings_password"
+22-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:13:13-46
+23            android:exported="false" />
 23-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:14:13-37
-24            android:label="@string/title_activity_nav"
-24-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:15:13-55
-25            android:theme="@style/Theme.FoodWaste.NoActionBar" />
-25-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:16:13-63
-26        <activity
-26-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:17:9-19:40
-27            android:name="com.example.foodwaste.SignUpActivity"
-27-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:18:13-43
-28            android:exported="false" />
-28-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:19:13-37
-29        <activity
-29-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:20:9-22:40
-30            android:name="com.example.foodwaste.MainPageActivity"
-30-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:21:13-45
-31            android:exported="false" />
-31-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:22:13-37
-32        <activity
-32-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:23:9-31:20
-33            android:name="com.example.foodwaste.LoginActivity"
-33-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:24:13-42
-34            android:exported="true" >
-34-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:25:13-36
-35            <intent-filter>
-35-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:26:13-30:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:27:17-69
-36-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:27:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:29:17-77
-38-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:29:27-74
-39            </intent-filter>
-40        </activity>
-41
-42        <provider
-42-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-43            android:name="androidx.startup.InitializationProvider"
-43-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-44            android:authorities="com.example.foodwaste.androidx-startup"
-44-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-45            android:exported="false" >
-45-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-46            <meta-data
-46-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-47-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-48                android:value="androidx.startup" />
-48-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-49            <meta-data
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sainishwanth/.gradle/caches/transforms-3/45759b04922bc547a81513b82a38ba1e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sainishwanth/.gradle/caches/transforms-3/45759b04922bc547a81513b82a38ba1e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-51                android:value="androidx.startup" />
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sainishwanth/.gradle/caches/transforms-3/45759b04922bc547a81513b82a38ba1e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-52        </provider>
-53    </application>
-54
-55</manifest>
+24        <activity
+24-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:15:9-17:40
+25            android:name="com.example.foodwaste.changepassword"
+25-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:16:13-43
+26            android:exported="false" />
+26-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:17:13-37
+27        <activity
+27-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:18:9-20:40
+28            android:name="com.example.foodwaste.Settings_Activity"
+28-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:19:13-46
+29            android:exported="false" />
+29-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:20:13-37
+30        <activity
+30-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:21:9-25:66
+31            android:name="com.example.foodwaste.NavActivity"
+31-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:22:13-40
+32            android:exported="false"
+32-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:23:13-37
+33            android:label="@string/title_activity_nav"
+33-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:24:13-55
+34            android:theme="@style/Theme.FoodWaste.NoActionBar" />
+34-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:25:13-63
+35        <activity
+35-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:26:9-28:40
+36            android:name="com.example.foodwaste.SignUpActivity"
+36-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:27:13-43
+37            android:exported="false" />
+37-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:28:13-37
+38        <activity
+38-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:29:9-31:40
+39            android:name="com.example.foodwaste.MainPageActivity"
+39-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:30:13-45
+40            android:exported="false" />
+40-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:31:13-37
+41        <activity
+41-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:32:9-40:20
+42            android:name="com.example.foodwaste.LoginActivity"
+42-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:33:13-42
+43            android:exported="true" >
+43-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:34:13-36
+44            <intent-filter>
+44-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:35:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:36:17-69
+45-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:36:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:38:17-77
+47-->/Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:38:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+53            android:authorities="com.example.foodwaste.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/db233f3ba8947fb0f91cd701b83dfe6a/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sainishwanth/.gradle/caches/transforms-3/45759b04922bc547a81513b82a38ba1e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sainishwanth/.gradle/caches/transforms-3/45759b04922bc547a81513b82a38ba1e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sainishwanth/.gradle/caches/transforms-3/45759b04922bc547a81513b82a38ba1e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>

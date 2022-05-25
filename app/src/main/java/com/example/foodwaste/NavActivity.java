@@ -1,12 +1,15 @@
 package com.example.foodwaste;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -32,6 +35,7 @@ public class NavActivity extends AppCompatActivity {
     private FloatingActionButton btn;
     private ArrayList<String> itemList;
     private ArrayAdapter<String> itemAdapter;
+    private TextView nav_id, nav_email;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,6 +57,14 @@ public class NavActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
         listView = findViewById(R.id.list);
         btn = findViewById(R.id.btnAdd);
+        nav_id = findViewById(R.id.nav_profile_id);
+        nav_email = findViewById(R.id.nav_profile_email);
+        try {
+            nav_id.setText("TestProfile");
+            nav_email.setText("TestEmail");
+        }catch(NullPointerException e){
+            e.printStackTrace();
+        }
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -91,6 +103,15 @@ public class NavActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.nav, menu);
         return true;
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()){
+            case R.id.action_settings:
+                Intent intent = new Intent(this, Settings_Activity.class);
+                startActivity(intent);
+                return true;
+        }
+        return false;
     }
 
     @Override

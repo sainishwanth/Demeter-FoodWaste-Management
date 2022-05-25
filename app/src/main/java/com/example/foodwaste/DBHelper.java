@@ -4,12 +4,12 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import androidx.annotation.Nullable;
 
 public class DBHelper extends SQLiteOpenHelper {
     public static String checkuser;
     public static String checkph;
     public static String checkemail;
+    public static String checkadd;
     public static String checktype;
     public static final String DBNAME = "Login.db";
     public DBHelper(Context context) {
@@ -19,12 +19,11 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase MyDB) {
-        MyDB.execSQL("create Table users(username TEXT primary key, password TEXT, phno TEXT, email TEXT,address TEXT, type TEXT)");
+        MyDB.execSQL("create Table users(username TEXT primary key, password TEXT, phno TEXT, email TEXT, address TEXT, type TEXT)");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase MyDB, int i, int i1) {
-        MyDB.execSQL("drop Table if exists users");
     }
 
     public Boolean insertData(String username, String password, String phno, String email, String address, String type){
@@ -36,10 +35,6 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put("email", email);
         contentValues.put("address", address);
         contentValues.put("type", type);
-        checkuser = username;
-        checkph = phno;
-        checkemail = email;
-        checktype = type;
         long result = MyDB.insert("users", null, contentValues);
         return result != -1;
     }
@@ -55,13 +50,12 @@ public class DBHelper extends SQLiteOpenHelper {
         Cursor cursor = MyDB.rawQuery("Select * from users where username = ? and password = ?", new String[] {username,password});
         return cursor.getCount() > 0;
     }
-
-    public void setData(String username){
-
-    }
-
-    public String getData(String username, String target){
+    public void getData(String username){
         SQLiteDatabase MyDB = this.getWritableDatabase();
-        return username;
+        checkuser = username;
+        checkph = String.valueOf(MyDB.rawQuery("Select phno from users where username = ?", new String[]{username}));
+        checkemail = String.valueOf(MyDB.rawQuery("Select email from users where username = ?", new String[]{username}));
+        checkadd = String.valueOf(MyDB.rawQuery("Select address from users where username = ?", new String[]{username}));
+        checktype = String.valueOf(MyDB.rawQuery("Select type from users where username = ?", new String[]{username}));
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainPageActivity"
-    android:background="@drawable/gradient_2">
+    android:background="@drawable/background2gg">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnAdd"
@@ -39,7 +39,8 @@
         <ListView
             android:id="@+id/list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            />
     </LinearLayout>
 
     <EditText

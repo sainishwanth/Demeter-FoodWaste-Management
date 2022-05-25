@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/foodbackground"
+    android:background="@drawable/foodbackbround"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -48,7 +48,7 @@
         android:layout_width="309dp"
         android:layout_height="83dp"
         android:layout_alignParentStart="true"
-
+        android:background="@drawable/custom_input"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -75,6 +75,7 @@
             android:drawableLeft="@drawable/pass_lock"
             android:drawablePadding="5dp"
             android:hint="Enter a Password"
+            android:background="@drawable/custom_input"
             android:imeOptions="actionDone"
             android:inputType="textPassword"
             android:textColor="@color/black" />
@@ -89,6 +90,7 @@
             android:inputType="textEmailAddress"
             android:imeOptions="actionDone"
             android:textColor="@color/black"
+            android:background="@drawable/custom_input"
             android:hint="Email"
             android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
             android:drawablePadding="5dp"/>
@@ -105,6 +107,7 @@
             android:imeOptions="actionDone"
             android:textColor="@color/black"
             android:hint="Ph. No"
+            android:background="@drawable/custom_input"
             android:drawableLeft="@drawable/ic_baseline_phone_24"
             android:drawablePadding="5dp"/>
         <ScrollView
@@ -118,6 +121,7 @@
                 android:textColor="@color/black"
                 android:hint="Address"
                 android:textSize="20dp"
+                android:background="@drawable/custom_input"
                 android:textStyle="bold"
                 android:drawableLeft="@drawable/home_address"
                 />
@@ -135,6 +139,7 @@
             android:id="@+id/typespinner"
             android:layout_width="150dp"
             android:layout_height="80dp"
+            android:background="@drawable/custom_input"
             android:textAlignment="center"
             android:layout_gravity="center"
             />

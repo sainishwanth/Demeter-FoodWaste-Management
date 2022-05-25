@@ -58,7 +58,7 @@ public class SignUpActivity extends AppCompatActivity implements AdapterView.OnI
                 String user = username.getText().toString();
                 String pass = password.getText().toString();
                 String dbpno = phno.getText().toString();
-                String dbemail = phno.getText().toString();
+                String dbemail = email.getText().toString();
                 String dbaddress = address.getText().toString();
                 if(!(user.equals("") && (pass.equals("")))){
                      if(!DB.checkusername(user)){

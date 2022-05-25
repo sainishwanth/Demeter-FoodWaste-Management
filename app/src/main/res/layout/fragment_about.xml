@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.AboutFragment"
-    android:background="@drawable/gradient_2">
+    android:background="@drawable/background2gg">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -30,7 +30,7 @@
         android:layout_marginEnd="43dp"
         android:layout_marginBottom="241dp"
         android:gravity="center_vertical"
-        android:text="Creators:\n\nSai Nishwanth Raj\n\nRaghav Nanjappan\n\nPunith Pecheti\n\nChalla Priyankar"
+        android:text="Creators:\n\nSai Nishwanth Raj\n\nRaghav Nanjappan\n\nPunith Pechetti\n\nChalla Priyankar"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="italic" />
@@ -47,7 +47,7 @@
         android:layout_marginEnd="59dp"
         android:layout_marginBottom="37dp"
         android:gravity="center_vertical"
-        android:text="Guide:\n\nDr.Chaya S. Dule"
+        android:text="Guide:\n\nDr. Chhaya S. Dule"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="italic" />

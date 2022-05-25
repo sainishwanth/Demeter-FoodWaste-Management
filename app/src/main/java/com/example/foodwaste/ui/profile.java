@@ -28,6 +28,7 @@ public class profile extends Fragment {
     private TextView proph;
     private TextView proacctype;
     private TextView proadd;
+    private String proaddStr;
     public profile() {
         // Required empty public constructor
     }
@@ -49,8 +50,7 @@ public class profile extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
         prouser = view.findViewById(R.id.profileusername);
-        prouser.setText("Sai");
+        proadd.setText(DBHelper.checkuser);
         return view;
-
     }
 }

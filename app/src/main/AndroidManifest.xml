@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodWaste">
         <activity
+            android:name=".settings_password"
+            android:exported="false" />
+        <activity
+            android:name=".changepassword"
+            android:exported="false" />
+        <activity
+            android:name=".Settings_Activity"
+            android:exported="false" />
+        <activity
             android:name=".NavActivity"
             android:exported="false"
             android:label="@string/title_activity_nav"
