@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable-v24_backgroundsky.jpeg.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable-v24/backgroundsky.jpeg"
     },
@@ -20,20 +24,44 @@
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable/ic_baseline_account_box_24.xml"
     },
     {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/navigation_nav_graph.xml.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/navigation/nav_graph.xml"
+    },
+    {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_ic_menu_camera.xml.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable/ic_menu_camera.xml"
     },
     {
-        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/navigation_nav_graph.xml.flat",
-        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/navigation/nav_graph.xml"
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/layout_activity_settings_password.xml.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/layout/activity_settings_password.xml"
     },
     {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_login_button.xml.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable/login_button.xml"
+    },
+    {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/navigation_nav_graph3.xml.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/navigation/nav_graph3.xml"
+    },
+    {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/layout_fragment_logout.xml.flat",
@@ -64,12 +92,28 @@
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/layout_activity_login.xml.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/layout/activity_login.xml"
     },
     {
+        "merged": "com.example.foodwaste.app-merged_res-35:/layout_activity_ngo_home.xml.flat",
+        "source": "com.example.foodwaste.app-main-37:/layout/activity_ngo_home.xml"
+    },
+    {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_ic_baseline_add_24.xml.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_ic_baseline_radio_button_unchecked_24.xml.flat",
@@ -92,8 +136,8 @@
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.foodwaste.app-merged_res-35:/layout_fragment_home_ngo.xml.flat",
-        "source": "com.example.foodwaste.app-main-37:/layout/fragment_home_ngo.xml"
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_profile_img.xml.flat",
@@ -162,6 +206,10 @@
     {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable-v24_foodbackground.jpg.flat",
@@ -236,6 +284,10 @@
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable/person_asset.xml"
     },
     {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/layout_popup.xml.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/layout/popup.xml"
     },
@@ -268,6 +320,10 @@
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_ic_baseline_date_range_24.xml.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable/ic_baseline_date_range_24.xml"
     },
@@ -284,12 +340,20 @@
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable-v24/background2gg.jpeg"
     },
     {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_foodpic2.png.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable/foodpic2.png"
     },
     {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_compost.jpg.flat",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/drawable/compost.jpg"
+    },
+    {
+        "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-merged_res-35:/drawable_custom_input.xml.flat",

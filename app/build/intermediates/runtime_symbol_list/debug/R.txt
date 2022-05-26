@@ -1301,6 +1301,7 @@ int color foreground_material_dark 0x7f06005b
 int color foreground_material_light 0x7f06005c
 int color highlighted_text_material_dark 0x7f06005d
 int color highlighted_text_material_light 0x7f06005e
+int color ic_launcher_background 0x7f060254
 int color m3_appbar_overlay_color 0x7f06005f
 int color m3_assist_chip_icon_tint_color 0x7f060060
 int color m3_assist_chip_stroke_color 0x7f060061
@@ -2659,6 +2660,7 @@ int id action_settings 0x7f09004d
 int id action_text 0x7f09004e
 int id actions 0x7f09004f
 int id activity_chooser_view_content 0x7f090050
+int id activity_ngo_home 0x7f09022c
 int id add 0x7f090051
 int id address_reset_button 0x7f090052
 int id alertTitle 0x7f090053
@@ -2909,6 +2911,7 @@ int id nav_contact 0x7f09013f
 int id nav_controller_view_tag 0x7f090140
 int id nav_graph 0x7f090141
 int id nav_graph2 0x7f090142
+int id nav_graph3 0x7f09022b
 int id nav_home 0x7f090143
 int id nav_host_fragment_container 0x7f090144
 int id nav_host_fragment_content_nav 0x7f090145
@@ -3221,6 +3224,7 @@ int layout abc_tooltip 0x7f0c001b
 int layout activity_login 0x7f0c001c
 int layout activity_main_page 0x7f0c001d
 int layout activity_nav 0x7f0c001e
+int layout activity_ngo_home 0x7f0c0090
 int layout activity_settings 0x7f0c001f
 int layout activity_settings_address 0x7f0c0020
 int layout activity_settings_email 0x7f0c0021
@@ -3339,10 +3343,12 @@ int menu example_menu 0x7f0d0001
 int menu example_menu2 0x7f0d0002
 int menu nav 0x7f0d0003
 int mipmap ic_launcher 0x7f0e0000
+int mipmap ic_launcher_foreground 0x7f0e0002
 int mipmap ic_launcher_round 0x7f0e0001
 int navigation mobile_navigation 0x7f0f0000
 int navigation nav_graph 0x7f0f0001
 int navigation nav_graph2 0x7f0f0002
+int navigation nav_graph3 0x7f0f0003
 int plurals mtrl_badge_content_description 0x7f100000
 int string Password 0x7f110000
 int string abc_action_bar_home_description 0x7f110001
@@ -3496,6 +3502,7 @@ int string previous 0x7f110094
 int string search_menu_title 0x7f110095
 int string second_fragment_label 0x7f110096
 int string status_bar_notification_info_overflow 0x7f110097
+int string title_activity_home_ngo 0x7f11009b
 int string title_activity_main_page 0x7f110098
 int string title_activity_nav 0x7f110099
 int string username 0x7f11009a

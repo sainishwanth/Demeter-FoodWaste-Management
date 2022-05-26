@@ -31,4 +31,5 @@
         <item>Donator</item>
         <item>NGO</item>
     </string-array>
+    <string name="title_activity_home_ngo">home_ngo</string>
 </resources>

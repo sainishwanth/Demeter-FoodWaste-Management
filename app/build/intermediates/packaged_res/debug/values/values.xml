@@ -6,6 +6,7 @@
         <item>NGO</item>
     </string-array>
     <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#FFD200</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -36,6 +37,7 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_home_ngo">home_ngo</string>
     <string name="title_activity_main_page">MainPage</string>
     <string name="title_activity_nav">NavActivity</string>
     <string name="username">Username</string>

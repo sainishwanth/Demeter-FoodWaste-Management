@@ -1,5 +1,6 @@
 package com.example.foodwaste.ui.home;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -13,7 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import java.util.Dictionary;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -27,6 +28,7 @@ import com.example.foodwaste.DBForm;
 import com.example.foodwaste.DBHelper;
 import com.example.foodwaste.R;
 import com.example.foodwaste.databinding.FragmentHomeBinding;
+import com.example.foodwaste.ngo_home;
 import com.google.android.material.button.MaterialButton;
 import android.view.ViewGroup;
 import java.util.ArrayList;
@@ -77,6 +79,8 @@ public class HomeFragment extends Fragment {
                 existing_item.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        Intent intent = new Intent(getActivity(), ngo_home.class);
+                        startActivity(intent);
                     }
                 });
                 break;
@@ -102,23 +106,26 @@ public class HomeFragment extends Fragment {
                 list_phno = Db.get_phno();
                 int count = Db.getCount();
                 Log.d("Count: ", String.valueOf(count));
-                Resources r = getResources();
+                TextView[] view_array = new TextView[count];
+                for(int i = 0; i < count; ++i){
+                    view_array[i] = new TextView(getActivity());
+                }
                 for(int i = 0; i < count; ++i){
                     TextView text_view = new TextView(getActivity());
                     LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
                     params.setMargins(10,20,1,50);
-                    text_view.setLayoutParams(params);
+                    view_array[i].setLayoutParams(params);
                     String Text = "Item- " + list_item.get(i) + "\n" +
                             "Purchase Date- " + list_purchaseDate.get(i) + "\n"+
                             "Expiry Date- " + list_expDate.get(i) + "\n"+
                             "Address- " + list_address.get(i) + "\n" +
                             "Ph No- " + list_phno.get(i);
-                    text_view.setText(Text);
-                    text_view.setClickable(true);
-                    text_view.setBackgroundResource(R.drawable.custom_input);
-                    text_view.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
-                    text_view.setTextColor(Color.BLACK);
-                    linearLayout.addView(text_view);
+                    view_array[i].setText(Text);
+                    view_array[i].setClickable(true);
+                    view_array[i].setBackgroundResource(R.drawable.custom_input);
+                    view_array[i].setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
+                    view_array[i].setTextColor(Color.BLACK);
+                    linearLayout.addView(view_array[i]);
                 }
                 break;
         }
@@ -143,11 +150,6 @@ public class HomeFragment extends Fragment {
                 }else{
                     if(Db.insertData(itemName.getText().toString(),bought_date.getText().toString(),exp_date.getText().toString(),address.getText().toString(),phno.getText().toString())){
                         Toast.makeText(getActivity(), "Created Successfully", Toast.LENGTH_SHORT).show();
-                        Log.d("Items", Arrays.toString(list_item.toArray()));
-                        Log.d("PurchasedDate", Arrays.toString(list_purchaseDate.toArray()));
-                        Log.d("expDate", Arrays.toString(list_expDate.toArray()));
-                        Log.d("Address", Arrays.toString(list_address.toArray()));
-                        Log.d("Ph No.", Arrays.toString(list_phno.toArray()));
                     }else{
                         Toast.makeText(getActivity(), "Unsuccessful", Toast.LENGTH_SHORT).show();
                     }

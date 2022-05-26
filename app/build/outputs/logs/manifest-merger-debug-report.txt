@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-55:12
 MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/sainishwanth/.gradle/caches/transforms-3/6509385ff8ec8e676099ca8dd74d3249/transformed/viewbinding-7.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/sainishwanth/.gradle/caches/transforms-3/4ef90adad18b5288d39c67de2442b729/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/sainishwanth/.gradle/caches/transforms-3/d719c211d28576cf41164fe387cd83b0/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
@@ -57,25 +57,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/bd2b858bc6569916fd0b165974e7ef03/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/f11a2796b54455e05ab8603854e4e469/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/sainishwanth/.gradle/caches/transforms-3/2af33ecfc53e92df0b334d3008fd6eb8/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:5:5-50:19
+ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:5:5-53:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/sainishwanth/.gradle/caches/transforms-3/d719c211d28576cf41164fe387cd83b0/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/sainishwanth/.gradle/caches/transforms-3/d719c211d28576cf41164fe387cd83b0/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/sainishwanth/.gradle/caches/transforms-3/0a260286398313079a698f4510509603/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
@@ -104,80 +104,86 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/sainishwanth/.gradle
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:11:9-47
-activity#com.example.foodwaste.settings_address
+activity#com.example.foodwaste.ngo_home
 ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:12:9-14:40
 	android:exported
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:13:13-45
-activity#com.example.foodwaste.settings_phno
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:13:13-37
+activity#com.example.foodwaste.settings_address
 ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:16:13-42
-activity#com.example.foodwaste.settings_email
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:16:13-45
+activity#com.example.foodwaste.settings_phno
 ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:19:13-43
-activity#com.example.foodwaste.settings_password
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:19:13-42
+activity#com.example.foodwaste.settings_email
 ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:22:13-46
-activity#com.example.foodwaste.changepassword
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:22:13-43
+activity#com.example.foodwaste.settings_password
 ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:25:13-43
-activity#com.example.foodwaste.Settings_Activity
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:25:13-46
+activity#com.example.foodwaste.changepassword
 ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:27:9-29:40
 	android:exported
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:28:13-46
-activity#com.example.foodwaste.NavActivity
-ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:30:9-34:66
-	android:label
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:33:13-55
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:28:13-43
+activity#com.example.foodwaste.Settings_Activity
+ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:30:9-32:40
 	android:exported
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:32:13-37
-	android:theme
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:34:13-63
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:31:13-40
-activity#com.example.foodwaste.SignUpActivity
-ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:35:9-37:40
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:31:13-46
+activity#com.example.foodwaste.NavActivity
+ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:33:9-37:66
+	android:label
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:36:13-55
 	android:exported
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:37:13-37
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:35:13-37
+	android:theme
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:37:13-63
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:36:13-43
-activity#com.example.foodwaste.MainPageActivity
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:34:13-40
+activity#com.example.foodwaste.SignUpActivity
 ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:39:13-45
-activity#com.example.foodwaste.LoginActivity
-ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:41:9-49:20
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:39:13-43
+activity#com.example.foodwaste.MainPageActivity
+ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:43:13-36
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:42:13-42
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:42:13-45
+activity#com.example.foodwaste.LoginActivity
+ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:44:9-52:20
+	android:exported
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:45:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:44:13-48:29
+ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:45:17-69
+ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:45:25-66
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:47:17-77
+ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:47:27-74
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:50:27-74
 uses-sdk
 INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml

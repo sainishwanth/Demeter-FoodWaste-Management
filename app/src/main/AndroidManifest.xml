@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodWaste">
         <activity
+            android:name=".ngo_home"
+            android:exported="false" />
+        <activity
             android:name=".settings_address"
             android:exported="false" />
         <activity

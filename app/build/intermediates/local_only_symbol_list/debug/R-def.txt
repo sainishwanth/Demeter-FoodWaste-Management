@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 array Type
 color black
+color ic_launcher_background
 color purple_200
 color purple_500
 color purple_700
@@ -59,6 +60,7 @@ id action_FirstFragment_to_SecondFragment
 id action_Second2Fragment_to_First2Fragment
 id action_SecondFragment_to_FirstFragment
 id action_settings
+id activity_ngo_home
 id address_reset_button
 id app_bar_nav
 id backtn
@@ -82,6 +84,7 @@ id nav_compost
 id nav_contact
 id nav_graph
 id nav_graph2
+id nav_graph3
 id nav_home
 id nav_host_fragment_content_nav
 id nav_logout
@@ -123,6 +126,7 @@ id username
 layout activity_login
 layout activity_main_page
 layout activity_nav
+layout activity_ngo_home
 layout activity_settings
 layout activity_settings_address
 layout activity_settings_email
@@ -143,10 +147,12 @@ layout popup
 menu activity_nav2_drawer
 menu nav
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation mobile_navigation
 navigation nav_graph
 navigation nav_graph2
+navigation nav_graph3
 string Password
 string action_settings
 string app_name
@@ -166,6 +172,7 @@ string navigation_drawer_open
 string next
 string previous
 string second_fragment_label
+string title_activity_home_ngo
 string title_activity_main_page
 string title_activity_nav
 string username

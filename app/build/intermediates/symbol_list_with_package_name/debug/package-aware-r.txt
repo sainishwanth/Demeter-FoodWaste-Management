@@ -1302,6 +1302,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2660,6 +2661,7 @@ id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
+id activity_ngo_home
 id add
 id address_reset_button
 id alertTitle
@@ -2910,6 +2912,7 @@ id nav_contact
 id nav_controller_view_tag
 id nav_graph
 id nav_graph2
+id nav_graph3
 id nav_home
 id nav_host_fragment_container
 id nav_host_fragment_content_nav
@@ -3222,6 +3225,7 @@ layout abc_tooltip
 layout activity_login
 layout activity_main_page
 layout activity_nav
+layout activity_ngo_home
 layout activity_settings
 layout activity_settings_address
 layout activity_settings_email
@@ -3340,10 +3344,12 @@ menu example_menu
 menu example_menu2
 menu nav
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation mobile_navigation
 navigation nav_graph
 navigation nav_graph2
+navigation nav_graph3
 plurals mtrl_badge_content_description
 string Password
 string abc_action_bar_home_description
@@ -3497,6 +3503,7 @@ string previous
 string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
+string title_activity_home_ngo
 string title_activity_main_page
 string title_activity_nav
 string username
