@@ -16,7 +16,9 @@
 
 ### Settings Page &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Profile Page
 
-<img width="340" alt="Screenshot 2022-05-25 at 5 22 06 PM" src="https://user-images.githubusercontent.com/76573095/170255776-4191527e-74f5-4297-9e06-f9832db3cec5.png">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img width="317" alt="Screenshot 2022-05-26 at 10 54 38 AM" src="https://user-images.githubusercontent.com/76573095/170422024-d34e194b-84e1-4bdc-9576-71ff0c3b93d7.png">
+<img width="340" alt="Screenshot 2022-05-25 at 5 22 06 PM" src="https://user-images.githubusercontent.com/76573095/170255776-4191527e-74f5-4297-9e06-f9832db3cec5.png">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img width="342" alt="Screenshot 2022-05-26 at 3 42 00 PM" src="https://user-images.githubusercontent.com/76573095/170467723-c2273873-5298-47ff-8c5e-2afdc0285f81.png">
+197-9cc4-ea2185b5c1eb.png">
+
 
 
 
