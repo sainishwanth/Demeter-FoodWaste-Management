@@ -28,6 +28,10 @@
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/layout/activity_settings.xml"
     },
     {
+        "merged": "com.example.foodwaste.app-mergeDebugResources-34:/layout/fragment_home_ngo.xml",
+        "source": "com.example.foodwaste.app-main-37:/layout/fragment_home_ngo.xml"
+    },
+    {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-mergeDebugResources-34:/layout/fragment_contact.xml",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/layout/fragment_contact.xml"
     },
@@ -78,9 +82,5 @@
     {
         "merged": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-mergeDebugResources-34:/layout/fragment_about.xml",
         "source": "/Users/sainishwanth/.gradle/daemon/7.3.3/com.example.foodwaste.app-main-37:/layout/fragment_about.xml"
-    },
-    {
-        "merged": "com.example.foodwaste.app-mergeDebugResources-34:/layout/popup.xml",
-        "source": "com.example.foodwaste.app-main-37:/layout/popup.xml"
     }
 ]

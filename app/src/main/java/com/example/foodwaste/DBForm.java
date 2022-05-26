@@ -6,14 +6,16 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
 public class DBForm extends SQLiteOpenHelper {
-    //public static String checkuser;
-    //public static String checkphno;
-    //public static String checkemail;
-    //public static String checkaddress;
-    //public static String checktype;
-    //public static String checkpass;
-    //public static final String DBNAME = "Login.db";
     public DBForm(Context context) {
         super(context, "Form.db", null, 1);
     }
@@ -42,16 +44,76 @@ public class DBForm extends SQLiteOpenHelper {
         return result != -1;
     }
 
-    public void getData(String username) {
+    public int getCount(){
         SQLiteDatabase MyDB = this.getWritableDatabase();
-        Cursor cursor = MyDB.rawQuery("Select * from users where username = ?", new String[]{username});
-        while (cursor.moveToNext()) {
-            //checkpass = cursor.getString(1);
-            //checkphno = cursor.getString(2);
-            //checkemail = cursor.getString(3);
-            //checkaddress = cursor.getString(4);
-            //checktype = cursor.getString(5);
+        Cursor cursor = MyDB.rawQuery("select * from forms", null);
+        int count = cursor.getCount();
+        return count;
+    }
+
+    public List<String> getItem() {
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        List<String> list = new ArrayList<String>();
+        Cursor cursor = MyDB.rawQuery("select * from forms", null);
+        if (cursor.moveToFirst()) {
+            while (!cursor.isAfterLast()) {
+                String name = cursor.getString(0);
+                list.add(name);
+                cursor.moveToNext();
+            }
         }
-        cursor.close();
+        return list;
+    }
+    public List<String> get_purchaseDate() {
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        List<String> list = new ArrayList<String>();
+        Cursor cursor = MyDB.rawQuery("select * from forms", null);
+        if (cursor.moveToFirst()) {
+            while (!cursor.isAfterLast()) {
+                String name = cursor.getString(1);
+                list.add(name);
+                cursor.moveToNext();
+            }
+        }
+        return list;
+    }
+    public List<String> get_expDate() {
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        List<String> list = new ArrayList<String>();
+        Cursor cursor = MyDB.rawQuery("select * from forms", null);
+        if (cursor.moveToFirst()) {
+            while (!cursor.isAfterLast()) {
+                String name = cursor.getString(2);
+                list.add(name);
+                cursor.moveToNext();
+            }
+        }
+        return list;
+    }
+    public List<String> get_address() {
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        List<String> list = new ArrayList<String>();
+        Cursor cursor = MyDB.rawQuery("select * from forms", null);
+        if (cursor.moveToFirst()) {
+            while (!cursor.isAfterLast()) {
+                String name = cursor.getString(3);
+                list.add(name);
+                cursor.moveToNext();
+            }
+        }
+        return list;
+    }
+    public List<String> get_phno() {
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        List<String> list = new ArrayList<String>();
+        Cursor cursor = MyDB.rawQuery("select * from forms", null);
+        if (cursor.moveToFirst()) {
+            while (!cursor.isAfterLast()) {
+                String name = cursor.getString(4);
+                list.add(name);
+                cursor.moveToNext();
+            }
+        }
+        return list;
     }
 }

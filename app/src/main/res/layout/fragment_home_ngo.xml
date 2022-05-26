@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,11 +8,6 @@
     android:id="@+id/nav_home"
     android:background="@drawable/background2gg">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="NGO Fragment"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="40dp"/>
-</RelativeLayout>
+
+
+</ScrollView>

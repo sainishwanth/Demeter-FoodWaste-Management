@@ -1,22 +1,25 @@
 package com.example.foodwaste.ui.home;
 
-import android.app.DatePickerDialog;
+import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.ListView;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -25,12 +28,8 @@ import com.example.foodwaste.DBHelper;
 import com.example.foodwaste.R;
 import com.example.foodwaste.databinding.FragmentHomeBinding;
 import com.google.android.material.button.MaterialButton;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
-import java.text.SimpleDateFormat;
+import android.view.ViewGroup;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Locale;
 
 public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
@@ -40,6 +39,11 @@ public class HomeFragment extends Fragment {
     private EditText itemName, bought_date, exp_date, phno, address;
     private MaterialButton submitbtn;
     private DBForm Db;
+    private List<String> list_item;
+    private List<String> list_purchaseDate;
+    private List<String> list_expDate;
+    private List<String> list_address;
+    private List<String> list_phno;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HomeViewModel homeViewModel =
@@ -73,11 +77,49 @@ public class HomeFragment extends Fragment {
                 existing_item.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-
                     }
                 });
                 break;
             case "NGO":
+                ScrollView home_ngo = v.findViewById(R.id.nav_home);
+                LinearLayout.LayoutParams scrollParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+                home_ngo.setLayoutParams(scrollParams);
+                LinearLayout linearLayout = new LinearLayout(getActivity());
+                LinearLayout.LayoutParams linearParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+                linearLayout.setOrientation(LinearLayout.VERTICAL);
+                linearLayout.setLayoutParams(linearParams);
+                home_ngo.addView(linearLayout);
+                Db = new DBForm(getActivity());
+                list_item = new ArrayList<String>();
+                list_item = Db.getItem();
+                list_purchaseDate = new ArrayList<String>();
+                list_purchaseDate = Db.get_purchaseDate();
+                list_expDate = new ArrayList<String>();
+                list_expDate = Db.get_expDate();
+                list_address = new ArrayList<String>();
+                list_address = Db.get_address();
+                list_phno = new ArrayList<String>();
+                list_phno = Db.get_phno();
+                int count = Db.getCount();
+                Log.d("Count: ", String.valueOf(count));
+                Resources r = getResources();
+                for(int i = 0; i < count; ++i){
+                    TextView text_view = new TextView(getActivity());
+                    LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+                    params.setMargins(10,20,1,50);
+                    text_view.setLayoutParams(params);
+                    String Text = "Item- " + list_item.get(i) + "\n" +
+                            "Purchase Date- " + list_purchaseDate.get(i) + "\n"+
+                            "Expiry Date- " + list_expDate.get(i) + "\n"+
+                            "Address- " + list_address.get(i) + "\n" +
+                            "Ph No- " + list_phno.get(i);
+                    text_view.setText(Text);
+                    text_view.setClickable(true);
+                    text_view.setBackgroundResource(R.drawable.custom_input);
+                    text_view.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
+                    text_view.setTextColor(Color.BLACK);
+                    linearLayout.addView(text_view);
+                }
                 break;
         }
     }
@@ -101,6 +143,11 @@ public class HomeFragment extends Fragment {
                 }else{
                     if(Db.insertData(itemName.getText().toString(),bought_date.getText().toString(),exp_date.getText().toString(),address.getText().toString(),phno.getText().toString())){
                         Toast.makeText(getActivity(), "Created Successfully", Toast.LENGTH_SHORT).show();
+                        Log.d("Items", Arrays.toString(list_item.toArray()));
+                        Log.d("PurchasedDate", Arrays.toString(list_purchaseDate.toArray()));
+                        Log.d("expDate", Arrays.toString(list_expDate.toArray()));
+                        Log.d("Address", Arrays.toString(list_address.toArray()));
+                        Log.d("Ph No.", Arrays.toString(list_phno.toArray()));
                     }else{
                         Toast.makeText(getActivity(), "Unsuccessful", Toast.LENGTH_SHORT).show();
                     }

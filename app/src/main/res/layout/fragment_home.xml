@@ -19,19 +19,11 @@
         android:textStyle="bold"
         android:textSize="40dp"
         />
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/black"/>
-
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/don_home_newitem"
             android:layout_width="280dp"
             android:layout_height="50dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="140dp"
             android:layout_gravity="center"
             android:text="Add a New Item"
             android:textColor="@color/black"
