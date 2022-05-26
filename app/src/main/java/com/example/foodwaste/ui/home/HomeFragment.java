@@ -20,6 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.foodwaste.DBForm;
 import com.example.foodwaste.DBHelper;
 import com.example.foodwaste.R;
 import com.example.foodwaste.databinding.FragmentHomeBinding;
@@ -38,6 +39,7 @@ public class HomeFragment extends Fragment {
     private AlertDialog Dialog;
     private EditText itemName, bought_date, exp_date, phno, address;
     private MaterialButton submitbtn;
+    private DBForm Db;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HomeViewModel homeViewModel =
@@ -90,13 +92,18 @@ public class HomeFragment extends Fragment {
         submitbtn = contact.findViewById(R.id.form_submit);
         phno.setText(DBHelper.checkphno);
         address.setText(DBHelper.checkaddress);
+        Db = new DBForm(getActivity());
         submitbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(itemName.getText().toString().equals("")||bought_date.getText().toString().equals("")||exp_date.getText().toString().equals("")||address.getText().toString().equals("")||phno.getText().toString().equals("")){
                     Toast.makeText(getActivity(), "Fields Cannot be Empty", Toast.LENGTH_SHORT).show();
                 }else{
-
+                    if(Db.insertData(itemName.getText().toString(),bought_date.getText().toString(),exp_date.getText().toString(),address.getText().toString(),phno.getText().toString())){
+                        Toast.makeText(getActivity(), "Created Successfully", Toast.LENGTH_SHORT).show();
+                    }else{
+                        Toast.makeText(getActivity(), "Unsuccessful", Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
         });
