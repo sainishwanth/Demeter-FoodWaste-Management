@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:textStyle="bold"
+        android:text="Username"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:layout_marginBottom="30dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -24,6 +25,7 @@
         android:textSize="20dp" />
 
     <TextView
+        android:text="email"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:textSize="15dp"

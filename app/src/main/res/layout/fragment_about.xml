@@ -21,6 +21,12 @@
         android:textAlignment="center"
         android:textSize="65dp"
         android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20sp"
+            android:background="@color/black"/>
 
     <TextView
         android:layout_width="331dp"
@@ -53,6 +59,12 @@
         android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="italic" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20sp"
+            android:background="@color/black"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="550dp"

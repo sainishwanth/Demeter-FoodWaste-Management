@@ -2497,6 +2497,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable foodbackbround
 drawable foodbackground
+drawable foodpic2
 drawable gradient_2
 drawable home_address
 drawable ic_baseline_account_box_24
@@ -2504,7 +2505,9 @@ drawable ic_baseline_add_24
 drawable ic_baseline_alternate_email_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_contact_page_24
+drawable ic_baseline_date_range_24
 drawable ic_baseline_food_bank_24
+drawable ic_baseline_history_24
 drawable ic_baseline_home_24
 drawable ic_baseline_info_24
 drawable ic_baseline_logout_24
@@ -2751,6 +2754,8 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id don_home_existingitem
+id don_home_newitem
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2786,6 +2791,12 @@ id fixed
 id flip
 id floating
 id forever
+id form_Address
+id form_exp_date
+id form_itemname
+id form_number
+id form_purchased_date
+id form_submit
 id fragment_container_view_tag
 id frost
 id ghost_view
@@ -3239,6 +3250,7 @@ layout fragment_about
 layout fragment_compost
 layout fragment_contact
 layout fragment_home
+layout fragment_home_ngo
 layout fragment_logout
 layout fragment_profile
 layout m3_alert_dialog
@@ -3303,6 +3315,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout popup
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

@@ -14,10 +14,8 @@
         android:layout_gravity="center"
         android:text="Contact Us"
         android:textAlignment="center"
-        android:textColor="@color/black"
         android:textSize="65dp"
         android:textStyle="bold" />
-
     <TextView
         android:layout_width="270dp"
         android:layout_height="185dp"
@@ -44,9 +42,9 @@
         android:layout_marginStart="83dp"
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="93dp"
-        android:textColor="@color/black"
-        android:textStyle="italic"
         android:gravity="center_vertical"
+        android:text="Email:\n\nSainishwanthraj@gmail.com\n\nPunith.canada@gmail.com"
+        android:textColor="@color/black"
         android:textSize="20dp"
-        android:text="Email:\n\nSainishwanthraj@gmail.com\n\nPunith.canada@gmail.com"/>
+        android:textStyle="italic" />
 </RelativeLayout>

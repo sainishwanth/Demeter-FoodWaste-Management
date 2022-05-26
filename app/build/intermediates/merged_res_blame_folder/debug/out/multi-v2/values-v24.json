@@ -4,7 +4,7 @@
             "outputFile": "com.example.foodwaste.app-mergeDebugResources-33:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/0b61725ab4c930b151c4488a893666fd/transformed/material-1.5.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/d719c211d28576cf41164fe387cd83b0/transformed/material-1.5.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/4adf412e9eb6257b08f1a55b81966117/transformed/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/134b728fa4e8aa6475e3c09158ebb5ed/transformed/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/3b1bc201b3bca652ca8cba6f27421397/transformed/appcompat-1.4.1/res/values-v24/values-v24.xml",
+                    "source": "/Users/sainishwanth/.gradle/caches/transforms-3/69592bd19cec1de513dd3643bec51fc2/transformed/appcompat-1.4.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

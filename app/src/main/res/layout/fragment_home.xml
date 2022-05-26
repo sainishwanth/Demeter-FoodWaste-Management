@@ -1,73 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NavActivity"
+    tools:context=".ui.home.HomeFragment"
     android:id="@+id/nav_home"
     android:background="@drawable/background2gg">
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btnAdd"
-        android:layout_width="56dp"
-        android:layout_height="62dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="19dp"
-        android:imeOptions="actionDone"
-        android:src="@drawable/ic_baseline_add_24"
-        android:text="+"
-        android:textAlignment="center"
-        android:textSize="35dp"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-
     <LinearLayout
-        android:layout_width="398dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="58dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="73dp"
         android:orientation="vertical">
-
-        <ListView
-            android:id="@+id/list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </LinearLayout>
-
-    <EditText
-        android:id="@+id/itemText"
-        android:layout_width="339dp"
-        android:layout_height="48dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="72dp"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:hint="Add Item"
-        android:imeOptions="actionDone"
-        android:inputType="text" />
-
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="284dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="127dp"
-        android:drawableLeft="@drawable/ic_baseline_food_bank_24"
-        android:text="DEMETER"
-        android:textAlignment="center"
-        android:textColor="#ffba08"
-        android:textSize="45dp" />
+        android:text="Home"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/black"/>
 
-</RelativeLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/don_home_newitem"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:text="Add a New Item"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_add_24"
+            android:backgroundTint="@color/white"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/don_home_existingitem"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="Check Existing Items"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_baseline_history_24"
+            android:backgroundTint="@color/white"/>
+    </LinearLayout>
+</ScrollView>
