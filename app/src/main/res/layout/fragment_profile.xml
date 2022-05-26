@@ -18,7 +18,8 @@
             android:textSize="40dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:textColor="#e63946"/>
+            android:text="Profile"
+            />
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
