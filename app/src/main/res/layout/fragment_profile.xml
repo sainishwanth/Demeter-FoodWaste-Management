@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.Profile"
-    android:background="@drawable/whitebg">
+    android:background="@drawable/background2gg">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,6 @@
         <TextView
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:text="Profile"
             android:textStyle="bold"
             android:textSize="40dp"
             android:layout_gravity="center"
@@ -31,7 +30,7 @@
             android:id="@+id/image_view"
             android:layout_width="200dp"
             android:layout_height="150dp"
-            android:background="@drawable/custom_input"
+            android:background="@drawable/person_asset"
             android:backgroundTint="@color/white"
             android:layout_gravity="center"
             android:layout_marginTop="60dp"
@@ -189,7 +188,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/home_address"
+                android:src="@drawable/ic_baseline_radio_button_unchecked_24"
                 app:tint="#e63946" />
 
             <TextView
@@ -231,7 +230,7 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_baseline_radio_button_unchecked_24"
+                android:src="@drawable/home_address"
                 app:tint="#e63946" />
 
             <TextView

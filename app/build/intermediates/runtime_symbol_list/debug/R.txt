@@ -2657,6 +2657,7 @@ int id action_text 0x7f09004e
 int id actions 0x7f09004f
 int id activity_chooser_view_content 0x7f090050
 int id add 0x7f090051
+int id address_reset_button 0x7f090220
 int id alertTitle 0x7f090052
 int id aligned 0x7f090053
 int id all 0x7f090054
@@ -2765,6 +2766,7 @@ int id easeOut 0x7f0900ba
 int id east 0x7f0900bb
 int id edit_query 0x7f0900bc
 int id elastic 0x7f0900bd
+int id email_reset_button 0x7f09021f
 int id end 0x7f0900be
 int id endToStart 0x7f0900bf
 int id end_padder 0x7f0900c0
@@ -2941,6 +2943,7 @@ int id path 0x7f090168
 int id pathRelative 0x7f090169
 int id peekHeight 0x7f09016a
 int id percent 0x7f09016b
+int id phno_reset_button 0x7f090221
 int id pin 0x7f09016c
 int id position 0x7f09016d
 int id postLayout 0x7f09016e
@@ -2986,8 +2989,10 @@ int id selected 0x7f090195
 int id selection_type 0x7f090196
 int id settings_add 0x7f090197
 int id settings_email 0x7f090198
+int id settings_new_address 0x7f090222
 int id settings_new_email 0x7f09021a
 int id settings_new_password 0x7f090199
+int id settings_new_phno 0x7f090223
 int id settings_old_password 0x7f09019a
 int id settings_password 0x7f09019b
 int id settings_phno 0x7f09019c

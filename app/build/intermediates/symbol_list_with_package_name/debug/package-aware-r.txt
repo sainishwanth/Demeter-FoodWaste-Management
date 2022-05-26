@@ -2658,6 +2658,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address_reset_button
 id alertTitle
 id aligned
 id all
@@ -2766,6 +2767,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id email_reset_button
 id end
 id endToStart
 id end_padder
@@ -2942,6 +2944,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phno_reset_button
 id pin
 id position
 id postLayout
@@ -2987,8 +2990,10 @@ id selected
 id selection_type
 id settings_add
 id settings_email
+id settings_new_address
 id settings_new_email
 id settings_new_password
+id settings_new_phno
 id settings_old_password
 id settings_password
 id settings_phno

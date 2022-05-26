@@ -13,19 +13,19 @@
     <fragment
         android:id="@+id/nav_profile"
         android:name="com.example.foodwaste.ui.Profile"
-        android:label="profile"
+        android:label="Profile"
         tools:layout="@layout/fragment_profile"/>
 
     <fragment
         android:id="@+id/nav_about"
         android:name="com.example.foodwaste.ui.AboutFragment"
-        android:label="@string/menu_gallery"
+        android:label="About Us"
         tools:layout="@layout/fragment_about" />
 
     <fragment
         android:id="@+id/nav_contact"
         android:name="com.example.foodwaste.ui.Contact"
-        android:label="@string/menu_slideshow"
+        android:label="Contact Us"
         tools:layout="@layout/fragment_contact" />
 
     <fragment

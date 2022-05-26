@@ -56,10 +56,12 @@ id action_FirstFragment_to_SecondFragment
 id action_Second2Fragment_to_First2Fragment
 id action_SecondFragment_to_FirstFragment
 id action_settings
+id address_reset_button
 id app_bar_nav
 id backtn
 id btnAdd
 id drawer_layout
+id email_reset_button
 id image_view
 id itemText
 id list
@@ -78,6 +80,7 @@ id nav_profile_id
 id nav_view
 id password
 id password_reset_button
+id phno_reset_button
 id profile_address
 id profile_email
 id profile_phno
@@ -85,8 +88,10 @@ id profile_type
 id profile_user
 id settings_add
 id settings_email
+id settings_new_address
 id settings_new_email
 id settings_new_password
+id settings_new_phno
 id settings_old_password
 id settings_password
 id settings_phno

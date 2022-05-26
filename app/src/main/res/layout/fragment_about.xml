@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,14 +7,18 @@
     android:background="@drawable/background2gg">
 
     <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
+        android:layout_marginTop="15dp"
         android:text="About Page"
         android:textAlignment="center"
-        android:textColor="@color/black"
         android:textSize="65dp"
         android:textStyle="bold" />
 
@@ -26,9 +30,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="37dp"
-        android:layout_marginTop="102dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="43dp"
-        android:layout_marginBottom="241dp"
         android:gravity="center_vertical"
         android:text="Creators:\n\nSai Nishwanth Raj\n\nRaghav Nanjappan\n\nPunith Pechetti\n\nChalla Priyankar"
         android:textColor="@color/black"
@@ -43,14 +46,26 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="42dp"
-        android:layout_marginTop="497dp"
+        android:layout_marginTop="1dp"
         android:layout_marginEnd="59dp"
-        android:layout_marginBottom="37dp"
         android:gravity="center_vertical"
         android:text="Guide:\n\nDr. Chhaya S. Dule"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="italic" />
-
-
-</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="59dp"
+        android:text="Nearly 40 per cent of the food produced in India is wasted every year due to fragmented food systems and inefficient supply chains. One of the main culprits behind this is due to the poor knowledge among the various restaurants or households about food waste management. To combat this we have made an app that lets Households or business owners tag their food waste which can then be marked by various NGO's or other organizations to be picked up by."
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    </LinearLayout>
+</ScrollView>
