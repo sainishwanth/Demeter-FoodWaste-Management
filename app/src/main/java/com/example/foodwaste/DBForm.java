@@ -23,7 +23,7 @@ public class DBForm extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase MyDB) {
-        MyDB.execSQL("create Table forms(item TEXT, purchasedDate TEXT, expDate TEXT, Address TEXT,phno TEXT)");
+        MyDB.execSQL("create Table forms(UID TEXT primary key, item TEXT, purchasedDate TEXT, expDate TEXT, Address TEXT,phno TEXT)");
     }
 
     @Override
@@ -32,9 +32,10 @@ public class DBForm extends SQLiteOpenHelper {
         onCreate(MyDB);
     }
 
-    public Boolean insertData(String item, String purchaseDate, String expDate, String address, String phno) {
+    public Boolean insertData(String UID, String item, String purchaseDate, String expDate, String address, String phno) {
         SQLiteDatabase MyDB = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
+        contentValues.put("UID", UID);
         contentValues.put("item", item);
         contentValues.put("purchasedDate", purchaseDate);
         contentValues.put("expDate", expDate);
@@ -50,8 +51,7 @@ public class DBForm extends SQLiteOpenHelper {
         int count = cursor.getCount();
         return count;
     }
-
-    public List<String> getItem() {
+    public List<String> getUID(){
         SQLiteDatabase MyDB = this.getWritableDatabase();
         List<String> list = new ArrayList<String>();
         Cursor cursor = MyDB.rawQuery("select * from forms", null);
@@ -64,7 +64,8 @@ public class DBForm extends SQLiteOpenHelper {
         }
         return list;
     }
-    public List<String> get_purchaseDate() {
+
+    public List<String> getItem() {
         SQLiteDatabase MyDB = this.getWritableDatabase();
         List<String> list = new ArrayList<String>();
         Cursor cursor = MyDB.rawQuery("select * from forms", null);
@@ -77,7 +78,7 @@ public class DBForm extends SQLiteOpenHelper {
         }
         return list;
     }
-    public List<String> get_expDate() {
+    public List<String> get_purchaseDate() {
         SQLiteDatabase MyDB = this.getWritableDatabase();
         List<String> list = new ArrayList<String>();
         Cursor cursor = MyDB.rawQuery("select * from forms", null);
@@ -90,7 +91,7 @@ public class DBForm extends SQLiteOpenHelper {
         }
         return list;
     }
-    public List<String> get_address() {
+    public List<String> get_expDate() {
         SQLiteDatabase MyDB = this.getWritableDatabase();
         List<String> list = new ArrayList<String>();
         Cursor cursor = MyDB.rawQuery("select * from forms", null);
@@ -103,7 +104,7 @@ public class DBForm extends SQLiteOpenHelper {
         }
         return list;
     }
-    public List<String> get_phno() {
+    public List<String> get_address() {
         SQLiteDatabase MyDB = this.getWritableDatabase();
         List<String> list = new ArrayList<String>();
         Cursor cursor = MyDB.rawQuery("select * from forms", null);
@@ -115,5 +116,22 @@ public class DBForm extends SQLiteOpenHelper {
             }
         }
         return list;
+    }
+    public List<String> get_phno() {
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        List<String> list = new ArrayList<String>();
+        Cursor cursor = MyDB.rawQuery("select * from forms", null);
+        if (cursor.moveToFirst()) {
+            while (!cursor.isAfterLast()) {
+                String name = cursor.getString(5);
+                list.add(name);
+                cursor.moveToNext();
+            }
+        }
+        return list;
+    }
+    public void DeleteRow(String UID){
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        MyDB.execSQL("delete from forms where UID = ?", new String[]{UID});
     }
 }

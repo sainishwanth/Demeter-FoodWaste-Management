@@ -56,6 +56,7 @@ id FirstFragment
 id LoginButton
 id Second2Fragment
 id SecondFragment
+id UID
 id action_First2Fragment_to_Second2Fragment
 id action_FirstFragment_to_SecondFragment
 id action_Second2Fragment_to_First2Fragment

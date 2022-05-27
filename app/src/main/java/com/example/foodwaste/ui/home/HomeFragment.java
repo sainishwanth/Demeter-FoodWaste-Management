@@ -1,7 +1,7 @@
 package com.example.foodwaste.ui.home;
 
+import android.app.FragmentTransaction;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,13 +14,10 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
-import java.util.Dictionary;
-import java.util.Arrays;
-import java.util.Iterator;
+
 import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -28,11 +25,11 @@ import com.example.foodwaste.DBForm;
 import com.example.foodwaste.DBHelper;
 import com.example.foodwaste.R;
 import com.example.foodwaste.databinding.FragmentHomeBinding;
-import com.example.foodwaste.ngo_home;
+import com.example.foodwaste.don_itemList;
 import com.google.android.material.button.MaterialButton;
-import android.view.ViewGroup;
-import android.content.ClipboardManager;
+
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
@@ -47,6 +44,7 @@ public class HomeFragment extends Fragment {
     private List<String> list_expDate;
     private List<String> list_address;
     private List<String> list_phno;
+    private List<String> list_uid;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -81,7 +79,7 @@ public class HomeFragment extends Fragment {
                 existing_item.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getActivity(), ngo_home.class);
+                        Intent intent = new Intent(getActivity(), don_itemList.class);
                         startActivity(intent);
                     }
                 });
@@ -106,6 +104,8 @@ public class HomeFragment extends Fragment {
                 list_address = Db.get_address();
                 list_phno = new ArrayList<String>();
                 list_phno = Db.get_phno();
+                list_uid = new ArrayList<String>();
+                list_uid = Db.getUID();
                 int count = Db.getCount();
                 Log.d("Count: ", String.valueOf(count));
                 TextView[] view_array = new TextView[count];
@@ -132,7 +132,6 @@ public class HomeFragment extends Fragment {
                     view_array[i].setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            Toast.makeText(getActivity(), "Item clicked", Toast.LENGTH_SHORT).show();
                             DialogBuilder = new AlertDialog.Builder(getActivity());
                             final View contact = getLayoutInflater().inflate(R.layout.popup2, null);
                             TextView itemName2 = contact.findViewById(R.id.form_itemname);
@@ -140,7 +139,10 @@ public class HomeFragment extends Fragment {
                             TextView exp_date2 = contact.findViewById(R.id.form_exp_date);
                             TextView phno2 = contact.findViewById(R.id.form_number);
                             TextView address2 = contact.findViewById(R.id.form_Address);
+                            TextView uid = contact.findViewById(R.id.UID);
+                            uid.setText("#ID- " + list_uid.get(temp));
                             submitbtn = contact.findViewById(R.id.form_submit);
+                            submitbtn.setText("Place Order");
                                 phno2.setText(list_phno.get(temp));
                                 address2.setText(list_address.get(temp));
                                 itemName2.setText(list_item.get(temp));
@@ -153,6 +155,8 @@ public class HomeFragment extends Fragment {
                             submitbtn.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {
+                                    Db.DeleteRow(list_uid.get(temp));
+                                    Toast.makeText(getActivity(), "Item has been placed", Toast.LENGTH_SHORT).show();
                                     Dialog.hide();
                                 }
                             });
@@ -172,6 +176,9 @@ public class HomeFragment extends Fragment {
         phno = contact.findViewById(R.id.form_number);
         address = contact.findViewById(R.id.form_Address);
         submitbtn = contact.findViewById(R.id.form_submit);
+        TextView unique_id = contact.findViewById(R.id.UID);
+        String uniqueID = UUID.randomUUID().toString();
+        unique_id.setText("ID# - " + uniqueID);
         phno.setText(DBHelper.checkphno);
         address.setText(DBHelper.checkaddress);
         Db = new DBForm(getActivity());
@@ -184,7 +191,7 @@ public class HomeFragment extends Fragment {
                 if(itemName.getText().toString().equals("")||bought_date.getText().toString().equals("")||exp_date.getText().toString().equals("")||address.getText().toString().equals("")||phno.getText().toString().equals("")){
                     Toast.makeText(getActivity(), "Fields Cannot be Empty", Toast.LENGTH_SHORT).show();
                 }else{
-                    if(Db.insertData(itemName.getText().toString(),bought_date.getText().toString(),exp_date.getText().toString(),address.getText().toString(),phno.getText().toString())){
+                    if(Db.insertData(uniqueID,itemName.getText().toString(),bought_date.getText().toString(),exp_date.getText().toString(),address.getText().toString(),phno.getText().toString())){
                         Toast.makeText(getActivity(), "Created Successfully", Toast.LENGTH_SHORT).show();
                         Dialog.hide();
                     }else{

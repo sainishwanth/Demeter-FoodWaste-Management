@@ -104,12 +104,12 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/sainishwanth/.gradle
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:11:9-47
-activity#com.example.foodwaste.ngo_home
+activity#com.example.foodwaste.don_itemList
 ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:12:9-14:40
 	android:exported
 		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:13:13-37
+		ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:13:13-41
 activity#com.example.foodwaste.settings_address
 ADDED from /Users/sainishwanth/Desktop/Coding/Demeter-FoodWaste-Management/app/src/main/AndroidManifest.xml:15:9-17:40
 	android:exported

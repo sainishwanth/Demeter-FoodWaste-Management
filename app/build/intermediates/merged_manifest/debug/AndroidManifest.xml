@@ -19,7 +19,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.FoodWaste" >
         <activity
-            android:name="com.example.foodwaste.ngo_home"
+            android:name="com.example.foodwaste.don_itemList"
             android:exported="false" />
         <activity
             android:name="com.example.foodwaste.settings_address"

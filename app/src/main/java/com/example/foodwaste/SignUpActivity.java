@@ -3,6 +3,8 @@ package com.example.foodwaste;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Patterns;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -58,20 +60,24 @@ public class SignUpActivity extends AppCompatActivity implements AdapterView.OnI
                 String dbpno = phno.getText().toString();
                 String dbemail = email.getText().toString();
                 String dbaddress = address.getText().toString();
-                if(!(user.equals("") || (pass.equals("")) || (dbpno.equals("")) || (dbemail.equals("")) || (dbaddress.equals(""))|| type.equals("Select"))){
-                     if(!DB.checkusername(user)){
-                         if(DB.insertData(user,pass,dbpno,dbemail,dbaddress,type)){
-                             Toast.makeText(SignUpActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
-                             finish();
-                         }else{
-                             Toast.makeText(SignUpActivity.this, "Registration Failed ", Toast.LENGTH_SHORT).show();
-                         }
-                     }else{
-                         Toast.makeText(SignUpActivity.this, "User Already Exists", Toast.LENGTH_SHORT).show();
-                     }
-                    finish();
-                }else{
-                    Toast.makeText(SignUpActivity.this, "Fields Cannot be Empty", Toast.LENGTH_SHORT).show();
+                if (!(user.equals("") || (pass.equals("")) || (dbpno.equals("")) || (dbemail.equals("")) || (dbaddress.equals("")) || type.equals("Select"))) {
+                    if (!DB.checkusername(user)) {
+                        if (isValidEmail(dbemail)) {
+                            if (DB.insertData(user, pass, dbpno, dbemail, dbaddress, type)) {
+                                Toast.makeText(SignUpActivity.this, "Registered Successfully", Toast.LENGTH_SHORT).show();
+                                finish();
+                            } else {
+                                Toast.makeText(SignUpActivity.this, "Registration Failed", Toast.LENGTH_SHORT).show();
+                            }
+                        } else {
+                            Toast.makeText(SignUpActivity.this, "Invalid Email", Toast.LENGTH_SHORT).show();
+                        }
+                    } else {
+                        Toast.makeText(SignUpActivity.this, "User already exists", Toast.LENGTH_SHORT).show();
+                        finish();
+                    }
+                } else {
+                    Toast.makeText(SignUpActivity.this, "Fields cannot be empty!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -85,5 +91,8 @@ public class SignUpActivity extends AppCompatActivity implements AdapterView.OnI
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+    public static boolean isValidEmail(CharSequence target) {
+        return (!TextUtils.isEmpty(target) && Patterns.EMAIL_ADDRESS.matcher(target).matches());
     }
 }
