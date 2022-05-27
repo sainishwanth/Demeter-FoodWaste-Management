@@ -20,6 +20,7 @@ drawable background2gg
 drawable backgroundsky
 drawable compost
 drawable custom_input
+drawable custom_input2
 drawable foodbackbround
 drawable foodbackground
 drawable foodpic2

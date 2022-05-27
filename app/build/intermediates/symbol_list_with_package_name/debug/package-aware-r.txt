@@ -2491,6 +2491,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable compost
 drawable custom_input
+drawable custom_input2
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off

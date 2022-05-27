@@ -2490,6 +2490,7 @@ int drawable btn_radio_on_mtrl 0x7f080062
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080063
 int drawable compost 0x7f080064
 int drawable custom_input 0x7f080065
+int drawable custom_input2 0x7f0800bf
 int drawable design_fab_background 0x7f080066
 int drawable design_ic_visibility 0x7f080067
 int drawable design_ic_visibility_off 0x7f080068

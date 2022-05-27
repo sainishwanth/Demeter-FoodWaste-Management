@@ -124,7 +124,7 @@ public class HomeFragment extends Fragment {
                             "Ph No- " + list_phno.get(i);
                     view_array[i].setText(Text);
                     view_array[i].setClickable(true);
-                    view_array[i].setBackgroundResource(R.drawable.custom_input);
+                    view_array[i].setBackgroundResource(R.drawable.custom_input2);
                     view_array[i].setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
                     view_array[i].setTextColor(Color.BLACK);
                     view_array[i].setId(i);
@@ -146,9 +146,16 @@ public class HomeFragment extends Fragment {
                                 itemName2.setText(list_item.get(temp));
                                 exp_date2.setText(list_expDate.get(temp));
                                 bought_date2.setText(list_purchaseDate.get(temp));
+
                             DialogBuilder.setView(contact);
                             Dialog = DialogBuilder.create();
                             Dialog.show();
+                            submitbtn.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    Dialog.hide();
+                                }
+                            });
                         }
                     });
                     linearLayout.addView(view_array[i]);
