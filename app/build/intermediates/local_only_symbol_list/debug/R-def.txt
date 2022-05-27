@@ -144,6 +144,7 @@ layout fragment_logout
 layout fragment_profile
 layout nav_header_nav
 layout popup
+layout popup2
 menu activity_nav2_drawer
 menu nav
 mipmap ic_launcher

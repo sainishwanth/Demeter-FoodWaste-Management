@@ -31,6 +31,7 @@ import com.example.foodwaste.databinding.FragmentHomeBinding;
 import com.example.foodwaste.ngo_home;
 import com.google.android.material.button.MaterialButton;
 import android.view.ViewGroup;
+import android.content.ClipboardManager;
 import java.util.ArrayList;
 
 public class HomeFragment extends Fragment {
@@ -46,6 +47,7 @@ public class HomeFragment extends Fragment {
     private List<String> list_expDate;
     private List<String> list_address;
     private List<String> list_phno;
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HomeViewModel homeViewModel =
@@ -125,6 +127,30 @@ public class HomeFragment extends Fragment {
                     view_array[i].setBackgroundResource(R.drawable.custom_input);
                     view_array[i].setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
                     view_array[i].setTextColor(Color.BLACK);
+                    view_array[i].setId(i);
+                    int temp = i;
+                    view_array[i].setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Toast.makeText(getActivity(), "Item clicked", Toast.LENGTH_SHORT).show();
+                            DialogBuilder = new AlertDialog.Builder(getActivity());
+                            final View contact = getLayoutInflater().inflate(R.layout.popup2, null);
+                            TextView itemName2 = contact.findViewById(R.id.form_itemname);
+                            TextView bought_date2 = contact.findViewById(R.id.form_purchased_date);
+                            TextView exp_date2 = contact.findViewById(R.id.form_exp_date);
+                            TextView phno2 = contact.findViewById(R.id.form_number);
+                            TextView address2 = contact.findViewById(R.id.form_Address);
+                            submitbtn = contact.findViewById(R.id.form_submit);
+                                phno2.setText(list_phno.get(temp));
+                                address2.setText(list_address.get(temp));
+                                itemName2.setText(list_item.get(temp));
+                                exp_date2.setText(list_expDate.get(temp));
+                                bought_date2.setText(list_purchaseDate.get(temp));
+                            DialogBuilder.setView(contact);
+                            Dialog = DialogBuilder.create();
+                            Dialog.show();
+                        }
+                    });
                     linearLayout.addView(view_array[i]);
                 }
                 break;
@@ -142,6 +168,9 @@ public class HomeFragment extends Fragment {
         phno.setText(DBHelper.checkphno);
         address.setText(DBHelper.checkaddress);
         Db = new DBForm(getActivity());
+        DialogBuilder.setView(contact);
+        Dialog = DialogBuilder.create();
+        Dialog.show();
         submitbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -150,14 +179,12 @@ public class HomeFragment extends Fragment {
                 }else{
                     if(Db.insertData(itemName.getText().toString(),bought_date.getText().toString(),exp_date.getText().toString(),address.getText().toString(),phno.getText().toString())){
                         Toast.makeText(getActivity(), "Created Successfully", Toast.LENGTH_SHORT).show();
+                        Dialog.hide();
                     }else{
                         Toast.makeText(getActivity(), "Unsuccessful", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
         });
-        DialogBuilder.setView(contact);
-        Dialog = DialogBuilder.create();
-        Dialog.show();
     }
 }

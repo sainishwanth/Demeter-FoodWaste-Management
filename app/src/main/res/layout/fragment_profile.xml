@@ -31,7 +31,7 @@
             android:id="@+id/image_view"
             android:layout_width="200dp"
             android:layout_height="150dp"
-            android:background="@drawable/foodpic2"
+            android:background="@drawable/person_asset"
             android:layout_gravity="center"
             android:layout_marginTop="60dp"
             android:layout_marginBottom="50dp"

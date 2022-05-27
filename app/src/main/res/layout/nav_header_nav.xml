@@ -6,6 +6,7 @@
     android:background="@drawable/side_nav_bar"
     android:gravity="bottom"
     android:orientation="vertical"
+    android:backgroundTint="#ffd965"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -22,13 +23,14 @@
         android:layout_marginBottom="30dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black"
-        android:textSize="20dp" />
+        android:textSize="30dp" />
 
     <TextView
         android:text="email"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
-        android:textSize="15dp"
-
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
         android:id="@+id/nav_profile_email"/>
 </LinearLayout>

@@ -15,7 +15,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public static String checkpass;
     public static final String DBNAME = "Login.db";
     public DBHelper(Context context) {
-        super(context, "Login.db", null, 2);
+        super(context, "Login.db", null, 3);
     }
 
 

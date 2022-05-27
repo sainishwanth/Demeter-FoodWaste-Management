@@ -17,7 +17,7 @@ import java.util.ListIterator;
 
 public class DBForm extends SQLiteOpenHelper {
     public DBForm(Context context) {
-        super(context, "Form.db", null, 1);
+        super(context, "Form.db", null, 2);
     }
 
 
