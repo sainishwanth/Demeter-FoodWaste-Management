@@ -70,7 +70,7 @@ public class SignUpActivity extends AppCompatActivity implements AdapterView.OnI
                                 Toast.makeText(SignUpActivity.this, "Registration Failed", Toast.LENGTH_SHORT).show();
                             }
                         } else {
-                            Toast.makeText(SignUpActivity.this, "Invalid Email", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignUpActivity.this, "Please enter a valid email", Toast.LENGTH_SHORT).show();
                         }
                     } else {
                         Toast.makeText(SignUpActivity.this, "User already exists", Toast.LENGTH_SHORT).show();

@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.TypedValue;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,6 +28,8 @@ import com.example.foodwaste.R;
 import com.example.foodwaste.databinding.FragmentHomeBinding;
 import com.example.foodwaste.don_itemList;
 import com.google.android.material.button.MaterialButton;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.UUID;
@@ -90,9 +93,18 @@ public class HomeFragment extends Fragment {
                 home_ngo.setLayoutParams(scrollParams);
                 LinearLayout linearLayout = new LinearLayout(getActivity());
                 LinearLayout.LayoutParams linearParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+
+                LinearLayout.LayoutParams params_title = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+                TextView title = new TextView(getActivity());
+                params_title.setMargins(10,10,1,70);
+                title.setText("Item List");
+                title.setTextSize(TypedValue.COMPLEX_UNIT_SP, 40);
+                params_title.gravity = Gravity.CENTER_HORIZONTAL;
+                title.setLayoutParams(params_title);
                 linearLayout.setOrientation(LinearLayout.VERTICAL);
                 linearLayout.setLayoutParams(linearParams);
                 home_ngo.addView(linearLayout);
+                linearLayout.addView(title);
                 Db = new DBForm(getActivity());
                 list_item = new ArrayList<String>();
                 list_item = Db.getItem();
